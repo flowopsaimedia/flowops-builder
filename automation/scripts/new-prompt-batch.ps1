@@ -1,5 +1,6 @@
 param(
-    [string]$Category
+    [string]$Category,
+    [string]$Module
 )
 
 $basePath = "C:\ProjectsAOC\FlowOpsAI\prompts"
@@ -11,64 +12,70 @@ if (!(Test-Path $targetFolder)) {
     Write-Host $targetFolder
 }
 
-$prompts = @(
-    @{ File="21-incident-troubleshooting-framework"; Title="Incident Troubleshooting Framework" },
-    @{ File="22-api-error-diagnostic-assistant"; Title="API Error Diagnostic Assistant" },
-    @{ File="23-authentication-failure-analyzer"; Title="Authentication Failure Analyzer" },
-    @{ File="24-log-analysis-assistant"; Title="Log Analysis Assistant" },
-    @{ File="25-environment-comparison-analyzer"; Title="Environment Comparison Analyzer" },
-    @{ File="26-production-issue-rca-assistant"; Title="Production Issue RCA Assistant" },
-    @{ File="27-configuration-validation-assistant"; Title="Configuration Validation Assistant" },
-    @{ File="28-dependency-failure-diagnostic"; Title="Dependency Failure Diagnostic" },
-    @{ File="29-technical-escalation-builder"; Title="Technical Escalation Builder" },
-    @{ File="30-smart-troubleshooting-playbook"; Title="Smart Troubleshooting Playbook" }
-)
+$modules = @{
 
-foreach ($prompt in $prompts) {
+    "project-management" = @(
+        @{ File="31-project-scope-builder"; Title="Project Scope Builder" },
+        @{ File="32-project-timeline-generator"; Title="Project Timeline Generator" },
+        @{ File="33-risk-assessment-assistant"; Title="Risk Assessment Assistant" },
+        @{ File="34-stakeholder-communication-builder"; Title="Stakeholder Communication Builder" },
+        @{ File="35-project-status-report-generator"; Title="Project Status Report Generator" },
+        @{ File="36-implementation-roadmap-builder"; Title="Implementation Roadmap Builder" },
+        @{ File="37-meeting-action-tracker"; Title="Meeting Action Tracker" },
+        @{ File="38-task-prioritization-assistant"; Title="Task Prioritization Assistant" },
+        @{ File="39-project-blocker-analyzer"; Title="Project Blocker Analyzer" },
+        @{ File="40-executive-project-summary-generator"; Title="Executive Project Summary Generator" }
+    )
+
+}
+
+if (!$modules.ContainsKey($Module)) {
+    Write-Host "❌ Module not found"
+    exit
+}
+
+foreach ($prompt in $modules[$Module]) {
 
     $filePath = Join-Path $targetFolder "$($prompt.File).md"
 
-    $template = @"
+$template = @"
 # $($prompt.Title)
 
 ## Business Scenario
-Describe a real business troubleshooting scenario.
+Describe a real business scenario.
 
 ## Use Case
 Describe when to use this prompt.
 
 ## Prompt
-You are an expert troubleshooting specialist.
+You are an expert business and project management specialist.
 
-Help me diagnose the following issue.
+Help me solve the following scenario.
 
-Problem:
-[Describe the issue]
+Context:
+[Describe situation]
 
-Symptoms:
-[List symptoms]
+Objective:
+[Goal]
 
-Environment:
-[Production / Test / QA / Development]
-
-Recent changes:
-[What changed?]
+Constraints:
+[List constraints]
 
 Requirements:
-- Identify probable causes.
-- Suggest troubleshooting steps.
-- Prioritize likely failures.
-- Recommend validation methods.
-- Suggest mitigation actions.
+- Recommend practical actions.
+- Prioritize business value.
+- Structure recommendations clearly.
+- Identify risks and dependencies.
+- Suggest best practices.
 
 ## Example Input
-Add a real troubleshooting example.
+Add a real-world example.
 
 ## Expected Output
-A structured diagnosis with recommended next steps.
+A professional and actionable result.
 
 ## Pro Tip
-Provide timestamps, logs, errors, and recent changes for better diagnosis.
+Provide business context and desired outcome for better results.
 "@
 
     $template | Out-File -FilePath $filePath -Encoding utf8

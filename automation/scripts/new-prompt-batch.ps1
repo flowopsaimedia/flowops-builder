@@ -27,6 +27,19 @@ $modules = @{
         @{ File="40-executive-project-summary-generator"; Title="Executive Project Summary Generator" }
     )
 
+    "business-productivity" = @(
+        @{ File="41-executive-email-writer"; Title="Executive Email Writer" },
+        @{ File="42-meeting-notes-to-action-plan"; Title="Meeting Notes to Action Plan" },
+        @{ File="43-business-decision-assistant"; Title="Business Decision Assistant" },
+        @{ File="44-smart-research-summarizer"; Title="Smart Research Summarizer" },
+        @{ File="45-professional-proposal-generator"; Title="Professional Proposal Generator" },
+        @{ File="46-weekly-productivity-planner"; Title="Weekly Productivity Planner" },
+        @{ File="47-client-communication-assistant"; Title="Client Communication Assistant" },
+        @{ File="48-business-process-optimizer"; Title="Business Process Optimizer" },
+        @{ File="49-ai-workflow-designer"; Title="AI Workflow Designer" },
+        @{ File="50-professional-document-improver"; Title="Professional Document Improver" }
+    )
+
 }
 
 if (!$modules.ContainsKey($Module)) {

@@ -11,73 +11,145 @@ PRODUCT = ROOT / "products" / "ai-workday-accelerator-kit" / "src"
 MODULE_TEMPLATE = Template("""
 # {{ title }}
 
-## Overview
+## Business Outcome
 
-This system helps professionals accelerate repetitive business tasks using AI-driven workflows.
+This Business System helps professionals reduce repetitive work while improving consistency, quality and decision-making.
+
+### Expected Business Impact
+
+- Reduce repetitive work
+- Increase productivity
+- Improve deliverable quality
+- Standardize business processes
+- Accelerate decision making
 
 {% for wf in workflows %}
 
 ---
 
-## Workflow {{ loop.index }} — {{ wf.name }}
+# {{ wf.name }}
 
-### Problem
+## Business Problem
 
 {{ wf.problem }}
 
-### Objective
+## Business Objective
 
 {{ wf.objective }}
 
-### Audience
+## Target Audience
 
 {{ wf.audience }}
 
-### AI Prompt
+## Professional AI Workflow
 
-You are a senior consultant specialized in **{{ wf.name }}**.
+You are a Senior Enterprise Consultant with extensive experience in {{ wf.name }}.
 
-Help me solve the following task.
+Your objective is to help produce enterprise-grade deliverables.
 
-Business Context
+### Business Context
 
-[Describe your situation]
+Describe:
 
-Requirements
+- Organization
+- Industry
+- Business process
+- Current challenge
+- Expected outcome
 
-- Produce a professional result.
-- Explain your reasoning.
-- Recommend improvements.
-- Identify risks.
-- Suggest best practices.
+### Deliverables
 
-### Expected Output
+Produce:
 
-- Professional deliverable
-- Actionable recommendations
-- Clear business language
-- Practical next steps
+1. Executive Summary
 
-### Example
+2. Detailed Analysis
 
-Adapt your response to the supplied business context.
+3. Recommended Actions
 
-### Best Practices
+4. Risks
 
-- Include enough business context.
-- Specify the desired outcome.
-- Mention constraints.
-- Review the generated result.
+5. Best Practices
 
-### Common Mistakes
+6. Implementation Roadmap
 
-- Missing business context.
-- Ambiguous instructions.
-- Undefined objectives.
+7. Executive Recommendations
 
-### Pro Tip
+### Quality Requirements
 
-Treat AI as a senior consultant instead of a search engine.
+- Professional language
+- Business oriented
+- Actionable
+- Structured
+- Executive ready
+
+## Expected Output
+
+The response must include:
+
+- Executive Summary
+
+- Business Analysis
+
+- Recommended Actions
+
+- Risks
+
+- Opportunities
+
+- Implementation Plan
+
+- Final Recommendations
+
+## Real Business Scenario
+
+Example:
+
+Company:
+
+Medium-sized manufacturing company.
+
+Situation:
+
+Monthly operational reporting requires approximately 8 hours every week.
+
+Objective:
+
+Reduce reporting time by using AI while improving report quality.
+
+Expected Result:
+
+AI generates a structured report ready for executive review.
+
+## Implementation Notes
+
+Always include:
+
+- business context
+- stakeholders
+- constraints
+- available information
+- desired outcome
+
+The more context provided, the better the results.
+
+## Common Pitfalls
+
+Avoid:
+
+- Generic prompts
+- Missing business objectives
+- Lack of context
+- Undefined audience
+- Ambiguous requests
+
+## Expert Recommendation
+
+Treat AI as a Senior Enterprise Consultant.
+
+Do not ask AI to "write something."
+
+Instead, describe the business problem and the expected business outcome.
 
 {% endfor %}
 """)
@@ -100,11 +172,20 @@ def build(spec_name: str):
             workflows=knowledge[module_id]
         )
 
-        file = PRODUCT / f"{module_id}.md"
+        output = PRODUCT / f"{module_id}.md"
 
-        file.write_text(
+        output.write_text(
             content,
             encoding="utf8"
         )
 
-    print("Starter Edition generated successfully.")
+    print()
+    print("=" * 60)
+    print("STARTER EDITION GENERATED")
+    print("=" * 60)
+    print()
+
+    for module in spec["modules"]:
+        print(f"✓ {module['title']}")
+
+    print()

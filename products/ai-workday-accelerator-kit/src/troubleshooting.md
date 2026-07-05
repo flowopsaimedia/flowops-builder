@@ -1,327 +1,655 @@
 
 # IT Troubleshooting
 
-## Overview
+## Business Outcome
 
-This system helps professionals accelerate repetitive business tasks using AI-driven workflows.
+This Business System helps professionals reduce repetitive work while improving consistency, quality and decision-making.
 
+### Expected Business Impact
 
-
----
-
-## Workflow 1 — Incident Diagnosis
-
-### Problem
-
-Slow incident resolution.
-
-### Objective
-
-Diagnose incidents.
-
-### Audience
-
-Support
-
-### AI Prompt
-
-You are a senior consultant specialized in **Incident Diagnosis**.
-
-Help me solve the following task.
-
-Business Context
-
-[Describe your situation]
-
-Requirements
-
-- Produce a professional result.
-- Explain your reasoning.
-- Recommend improvements.
-- Identify risks.
-- Suggest best practices.
-
-### Expected Output
-
-- Professional deliverable
-- Actionable recommendations
-- Clear business language
-- Practical next steps
-
-### Example
-
-Adapt your response to the supplied business context.
-
-### Best Practices
-
-- Include enough business context.
-- Specify the desired outcome.
-- Mention constraints.
-- Review the generated result.
-
-### Common Mistakes
-
-- Missing business context.
-- Ambiguous instructions.
-- Undefined objectives.
-
-### Pro Tip
-
-Treat AI as a senior consultant instead of a search engine.
+- Reduce repetitive work
+- Increase productivity
+- Improve deliverable quality
+- Standardize business processes
+- Accelerate decision making
 
 
 
 ---
 
-## Workflow 2 — Log Analysis
+# Production Incident Investigation System
 
-### Problem
+## Business Problem
 
-Logs are difficult to interpret.
+Production incidents take too long to investigate.
 
-### Objective
+## Business Objective
 
-Analyze logs.
+Accelerate enterprise incident diagnosis.
 
-### Audience
+## Target Audience
 
-Engineers
+Support Engineers
 
-### AI Prompt
+## Professional AI Workflow
 
-You are a senior consultant specialized in **Log Analysis**.
+You are a Senior Enterprise Consultant with extensive experience in Production Incident Investigation System.
 
-Help me solve the following task.
+Your objective is to help produce enterprise-grade deliverables.
 
-Business Context
+### Business Context
 
-[Describe your situation]
+Describe:
 
-Requirements
+- Organization
+- Industry
+- Business process
+- Current challenge
+- Expected outcome
 
-- Produce a professional result.
-- Explain your reasoning.
-- Recommend improvements.
-- Identify risks.
-- Suggest best practices.
+### Deliverables
 
-### Expected Output
+Produce:
 
-- Professional deliverable
-- Actionable recommendations
-- Clear business language
-- Practical next steps
+1. Executive Summary
 
-### Example
+2. Detailed Analysis
 
-Adapt your response to the supplied business context.
+3. Recommended Actions
 
-### Best Practices
+4. Risks
 
-- Include enough business context.
-- Specify the desired outcome.
-- Mention constraints.
-- Review the generated result.
+5. Best Practices
 
-### Common Mistakes
+6. Implementation Roadmap
 
-- Missing business context.
-- Ambiguous instructions.
-- Undefined objectives.
+7. Executive Recommendations
 
-### Pro Tip
+### Quality Requirements
 
-Treat AI as a senior consultant instead of a search engine.
+- Professional language
+- Business oriented
+- Actionable
+- Structured
+- Executive ready
+
+## Expected Output
+
+The response must include:
+
+- Executive Summary
+
+- Business Analysis
+
+- Recommended Actions
+
+- Risks
+
+- Opportunities
+
+- Implementation Plan
+
+- Final Recommendations
+
+## Real Business Scenario
+
+Example:
+
+Company:
+
+Medium-sized manufacturing company.
+
+Situation:
+
+Monthly operational reporting requires approximately 8 hours every week.
+
+Objective:
+
+Reduce reporting time by using AI while improving report quality.
+
+Expected Result:
+
+AI generates a structured report ready for executive review.
+
+## Implementation Notes
+
+Always include:
+
+- business context
+- stakeholders
+- constraints
+- available information
+- desired outcome
+
+The more context provided, the better the results.
+
+## Common Pitfalls
+
+Avoid:
+
+- Generic prompts
+- Missing business objectives
+- Lack of context
+- Undefined audience
+- Ambiguous requests
+
+## Expert Recommendation
+
+Treat AI as a Senior Enterprise Consultant.
+
+Do not ask AI to "write something."
+
+Instead, describe the business problem and the expected business outcome.
 
 
 
 ---
 
-## Workflow 3 — Error Investigation
+# Enterprise Log Analysis System
 
-### Problem
+## Business Problem
 
-Root causes are unknown.
+Large log files are difficult to interpret.
 
-### Objective
+## Business Objective
 
-Investigate failures.
+Extract actionable information from enterprise logs.
 
-### Audience
+## Target Audience
 
-Developers
+Platform Engineers
 
-### AI Prompt
+## Professional AI Workflow
 
-You are a senior consultant specialized in **Error Investigation**.
+You are a Senior Enterprise Consultant with extensive experience in Enterprise Log Analysis System.
 
-Help me solve the following task.
+Your objective is to help produce enterprise-grade deliverables.
 
-Business Context
+### Business Context
 
-[Describe your situation]
+Describe:
 
-Requirements
+- Organization
+- Industry
+- Business process
+- Current challenge
+- Expected outcome
 
-- Produce a professional result.
-- Explain your reasoning.
-- Recommend improvements.
-- Identify risks.
-- Suggest best practices.
+### Deliverables
 
-### Expected Output
+Produce:
 
-- Professional deliverable
-- Actionable recommendations
-- Clear business language
-- Practical next steps
+1. Executive Summary
 
-### Example
+2. Detailed Analysis
 
-Adapt your response to the supplied business context.
+3. Recommended Actions
 
-### Best Practices
+4. Risks
 
-- Include enough business context.
-- Specify the desired outcome.
-- Mention constraints.
-- Review the generated result.
+5. Best Practices
 
-### Common Mistakes
+6. Implementation Roadmap
 
-- Missing business context.
-- Ambiguous instructions.
-- Undefined objectives.
+7. Executive Recommendations
 
-### Pro Tip
+### Quality Requirements
 
-Treat AI as a senior consultant instead of a search engine.
+- Professional language
+- Business oriented
+- Actionable
+- Structured
+- Executive ready
+
+## Expected Output
+
+The response must include:
+
+- Executive Summary
+
+- Business Analysis
+
+- Recommended Actions
+
+- Risks
+
+- Opportunities
+
+- Implementation Plan
+
+- Final Recommendations
+
+## Real Business Scenario
+
+Example:
+
+Company:
+
+Medium-sized manufacturing company.
+
+Situation:
+
+Monthly operational reporting requires approximately 8 hours every week.
+
+Objective:
+
+Reduce reporting time by using AI while improving report quality.
+
+Expected Result:
+
+AI generates a structured report ready for executive review.
+
+## Implementation Notes
+
+Always include:
+
+- business context
+- stakeholders
+- constraints
+- available information
+- desired outcome
+
+The more context provided, the better the results.
+
+## Common Pitfalls
+
+Avoid:
+
+- Generic prompts
+- Missing business objectives
+- Lack of context
+- Undefined audience
+- Ambiguous requests
+
+## Expert Recommendation
+
+Treat AI as a Senior Enterprise Consultant.
+
+Do not ask AI to "write something."
+
+Instead, describe the business problem and the expected business outcome.
 
 
 
 ---
 
-## Workflow 4 — Performance Analysis
+# Performance Bottleneck Investigation System
 
-### Problem
+## Business Problem
 
-Systems become slow.
+Performance degradation is difficult to isolate.
 
-### Objective
+## Business Objective
 
-Detect bottlenecks.
+Identify performance bottlenecks systematically.
 
-### Audience
+## Target Audience
 
-Infrastructure
+Infrastructure Teams
 
-### AI Prompt
+## Professional AI Workflow
 
-You are a senior consultant specialized in **Performance Analysis**.
+You are a Senior Enterprise Consultant with extensive experience in Performance Bottleneck Investigation System.
 
-Help me solve the following task.
+Your objective is to help produce enterprise-grade deliverables.
 
-Business Context
+### Business Context
 
-[Describe your situation]
+Describe:
 
-Requirements
+- Organization
+- Industry
+- Business process
+- Current challenge
+- Expected outcome
 
-- Produce a professional result.
-- Explain your reasoning.
-- Recommend improvements.
-- Identify risks.
-- Suggest best practices.
+### Deliverables
 
-### Expected Output
+Produce:
 
-- Professional deliverable
-- Actionable recommendations
-- Clear business language
-- Practical next steps
+1. Executive Summary
 
-### Example
+2. Detailed Analysis
 
-Adapt your response to the supplied business context.
+3. Recommended Actions
 
-### Best Practices
+4. Risks
 
-- Include enough business context.
-- Specify the desired outcome.
-- Mention constraints.
-- Review the generated result.
+5. Best Practices
 
-### Common Mistakes
+6. Implementation Roadmap
 
-- Missing business context.
-- Ambiguous instructions.
-- Undefined objectives.
+7. Executive Recommendations
 
-### Pro Tip
+### Quality Requirements
 
-Treat AI as a senior consultant instead of a search engine.
+- Professional language
+- Business oriented
+- Actionable
+- Structured
+- Executive ready
+
+## Expected Output
+
+The response must include:
+
+- Executive Summary
+
+- Business Analysis
+
+- Recommended Actions
+
+- Risks
+
+- Opportunities
+
+- Implementation Plan
+
+- Final Recommendations
+
+## Real Business Scenario
+
+Example:
+
+Company:
+
+Medium-sized manufacturing company.
+
+Situation:
+
+Monthly operational reporting requires approximately 8 hours every week.
+
+Objective:
+
+Reduce reporting time by using AI while improving report quality.
+
+Expected Result:
+
+AI generates a structured report ready for executive review.
+
+## Implementation Notes
+
+Always include:
+
+- business context
+- stakeholders
+- constraints
+- available information
+- desired outcome
+
+The more context provided, the better the results.
+
+## Common Pitfalls
+
+Avoid:
+
+- Generic prompts
+- Missing business objectives
+- Lack of context
+- Undefined audience
+- Ambiguous requests
+
+## Expert Recommendation
+
+Treat AI as a Senior Enterprise Consultant.
+
+Do not ask AI to "write something."
+
+Instead, describe the business problem and the expected business outcome.
 
 
 
 ---
 
-## Workflow 5 — Recovery Plan
+# Critical Error Diagnosis System
 
-### Problem
+## Business Problem
 
-Recovery is improvised.
+Critical application failures lack structured investigation.
 
-### Objective
+## Business Objective
 
-Build recovery plans.
+Produce systematic diagnostic analysis.
 
-### Audience
+## Target Audience
 
-Operations
+Application Support
 
-### AI Prompt
+## Professional AI Workflow
 
-You are a senior consultant specialized in **Recovery Plan**.
+You are a Senior Enterprise Consultant with extensive experience in Critical Error Diagnosis System.
 
-Help me solve the following task.
+Your objective is to help produce enterprise-grade deliverables.
 
-Business Context
+### Business Context
 
-[Describe your situation]
+Describe:
 
-Requirements
+- Organization
+- Industry
+- Business process
+- Current challenge
+- Expected outcome
 
-- Produce a professional result.
-- Explain your reasoning.
-- Recommend improvements.
-- Identify risks.
-- Suggest best practices.
+### Deliverables
 
-### Expected Output
+Produce:
 
-- Professional deliverable
-- Actionable recommendations
-- Clear business language
-- Practical next steps
+1. Executive Summary
 
-### Example
+2. Detailed Analysis
 
-Adapt your response to the supplied business context.
+3. Recommended Actions
 
-### Best Practices
+4. Risks
 
-- Include enough business context.
-- Specify the desired outcome.
-- Mention constraints.
-- Review the generated result.
+5. Best Practices
 
-### Common Mistakes
+6. Implementation Roadmap
 
-- Missing business context.
-- Ambiguous instructions.
-- Undefined objectives.
+7. Executive Recommendations
 
-### Pro Tip
+### Quality Requirements
 
-Treat AI as a senior consultant instead of a search engine.
+- Professional language
+- Business oriented
+- Actionable
+- Structured
+- Executive ready
+
+## Expected Output
+
+The response must include:
+
+- Executive Summary
+
+- Business Analysis
+
+- Recommended Actions
+
+- Risks
+
+- Opportunities
+
+- Implementation Plan
+
+- Final Recommendations
+
+## Real Business Scenario
+
+Example:
+
+Company:
+
+Medium-sized manufacturing company.
+
+Situation:
+
+Monthly operational reporting requires approximately 8 hours every week.
+
+Objective:
+
+Reduce reporting time by using AI while improving report quality.
+
+Expected Result:
+
+AI generates a structured report ready for executive review.
+
+## Implementation Notes
+
+Always include:
+
+- business context
+- stakeholders
+- constraints
+- available information
+- desired outcome
+
+The more context provided, the better the results.
+
+## Common Pitfalls
+
+Avoid:
+
+- Generic prompts
+- Missing business objectives
+- Lack of context
+- Undefined audience
+- Ambiguous requests
+
+## Expert Recommendation
+
+Treat AI as a Senior Enterprise Consultant.
+
+Do not ask AI to "write something."
+
+Instead, describe the business problem and the expected business outcome.
+
+
+
+---
+
+# Disaster Recovery Planning System
+
+## Business Problem
+
+Recovery procedures are incomplete or outdated.
+
+## Business Objective
+
+Produce enterprise recovery plans.
+
+## Target Audience
+
+IT Operations
+
+## Professional AI Workflow
+
+You are a Senior Enterprise Consultant with extensive experience in Disaster Recovery Planning System.
+
+Your objective is to help produce enterprise-grade deliverables.
+
+### Business Context
+
+Describe:
+
+- Organization
+- Industry
+- Business process
+- Current challenge
+- Expected outcome
+
+### Deliverables
+
+Produce:
+
+1. Executive Summary
+
+2. Detailed Analysis
+
+3. Recommended Actions
+
+4. Risks
+
+5. Best Practices
+
+6. Implementation Roadmap
+
+7. Executive Recommendations
+
+### Quality Requirements
+
+- Professional language
+- Business oriented
+- Actionable
+- Structured
+- Executive ready
+
+## Expected Output
+
+The response must include:
+
+- Executive Summary
+
+- Business Analysis
+
+- Recommended Actions
+
+- Risks
+
+- Opportunities
+
+- Implementation Plan
+
+- Final Recommendations
+
+## Real Business Scenario
+
+Example:
+
+Company:
+
+Medium-sized manufacturing company.
+
+Situation:
+
+Monthly operational reporting requires approximately 8 hours every week.
+
+Objective:
+
+Reduce reporting time by using AI while improving report quality.
+
+Expected Result:
+
+AI generates a structured report ready for executive review.
+
+## Implementation Notes
+
+Always include:
+
+- business context
+- stakeholders
+- constraints
+- available information
+- desired outcome
+
+The more context provided, the better the results.
+
+## Common Pitfalls
+
+Avoid:
+
+- Generic prompts
+- Missing business objectives
+- Lack of context
+- Undefined audience
+- Ambiguous requests
+
+## Expert Recommendation
+
+Treat AI as a Senior Enterprise Consultant.
+
+Do not ask AI to "write something."
+
+Instead, describe the business problem and the expected business outcome.
 

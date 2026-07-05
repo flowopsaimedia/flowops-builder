@@ -1,134 +1,134 @@
 excel-intelligence:
 
-  - name: Formula Builder
-    problem: Creating complex Excel formulas.
-    objective: Generate optimized formulas.
-    audience: Excel users
+  - name: Monthly Financial Closing System
+    problem: Finance teams spend hours preparing monthly closing reports manually.
+    objective: Produce accurate monthly financial closing reports using AI.
+    audience: Finance Teams
 
-  - name: Data Cleaning
-    problem: Inconsistent business data.
-    objective: Clean datasets.
-    audience: Business analysts
-
-  - name: Dashboard Designer
-    problem: Poor dashboards.
-    objective: Build executive dashboards.
-    audience: Managers
-
-  - name: Executive Reports
-    problem: Weekly reporting takes too much time.
-    objective: Generate executive summaries.
+  - name: Executive KPI Reporting System
+    problem: Executives wait too long for weekly KPI reports.
+    objective: Generate executive KPI summaries with actionable insights.
     audience: Executives
 
-  - name: Business Insights
-    problem: Raw data doesn't explain decisions.
-    objective: Generate business recommendations.
-    audience: Decision makers
+  - name: Sales Performance Analysis System
+    problem: Sales reports identify numbers but not business opportunities.
+    objective: Analyze sales performance and recommend actions.
+    audience: Sales Managers
+
+  - name: Budget Variance Analysis System
+    problem: Budget deviations are difficult to understand quickly.
+    objective: Explain budget variances and recommend corrective actions.
+    audience: Finance Managers
+
+  - name: Operational Dashboard Creation System
+    problem: Operational dashboards often contain too much irrelevant information.
+    objective: Design executive dashboards focused on decision making.
+    audience: Operations Managers
 
 technical-documentation:
 
-  - name: Technical Guide
-    problem: Documentation is inconsistent.
-    objective: Produce professional documentation.
-    audience: Technical teams
+  - name: OAuth Integration Documentation System
+    problem: OAuth integrations are poorly documented.
+    objective: Produce enterprise-grade OAuth documentation.
+    audience: Integration Teams
 
-  - name: Procedure Builder
-    problem: Procedures vary between authors.
-    objective: Standardize procedures.
-    audience: Operations
+  - name: REST API Documentation System
+    problem: API documentation is inconsistent across projects.
+    objective: Standardize REST API documentation.
+    audience: Developers
 
-  - name: Root Cause Analysis
-    problem: RCA documents are incomplete.
-    objective: Produce structured RCA.
-    audience: Support
+  - name: Enterprise Procedure Documentation System
+    problem: Operational procedures vary between authors.
+    objective: Produce standardized enterprise procedures.
+    audience: Operations Teams
 
-  - name: Integration Documentation
-    problem: Integrations lack documentation.
-    objective: Document enterprise integrations.
-    audience: Architects
-
-  - name: Knowledge Transfer
-    problem: Knowledge is lost between teams.
-    objective: Preserve operational knowledge.
+  - name: Root Cause Analysis System
+    problem: Incident reports rarely identify the true root cause.
+    objective: Produce structured RCA documentation.
     audience: Support Teams
+
+  - name: Knowledge Transfer System
+    problem: Critical knowledge is lost during project transitions.
+    objective: Capture and transfer technical knowledge efficiently.
+    audience: Technical Teams
 
 troubleshooting:
 
-  - name: Incident Diagnosis
-    problem: Slow incident resolution.
-    objective: Diagnose incidents.
-    audience: Support
+  - name: Production Incident Investigation System
+    problem: Production incidents take too long to investigate.
+    objective: Accelerate enterprise incident diagnosis.
+    audience: Support Engineers
 
-  - name: Log Analysis
-    problem: Logs are difficult to interpret.
-    objective: Analyze logs.
-    audience: Engineers
+  - name: Enterprise Log Analysis System
+    problem: Large log files are difficult to interpret.
+    objective: Extract actionable information from enterprise logs.
+    audience: Platform Engineers
 
-  - name: Error Investigation
-    problem: Root causes are unknown.
-    objective: Investigate failures.
-    audience: Developers
+  - name: Performance Bottleneck Investigation System
+    problem: Performance degradation is difficult to isolate.
+    objective: Identify performance bottlenecks systematically.
+    audience: Infrastructure Teams
 
-  - name: Performance Analysis
-    problem: Systems become slow.
-    objective: Detect bottlenecks.
-    audience: Infrastructure
+  - name: Critical Error Diagnosis System
+    problem: Critical application failures lack structured investigation.
+    objective: Produce systematic diagnostic analysis.
+    audience: Application Support
 
-  - name: Recovery Plan
-    problem: Recovery is improvised.
-    objective: Build recovery plans.
-    audience: Operations
+  - name: Disaster Recovery Planning System
+    problem: Recovery procedures are incomplete or outdated.
+    objective: Produce enterprise recovery plans.
+    audience: IT Operations
 
 project-delivery:
 
-  - name: Project Planning
-    problem: Weak planning.
-    objective: Produce project plans.
+  - name: Project Kickoff Planning System
+    problem: Projects start without complete planning.
+    objective: Produce structured kickoff documentation.
     audience: Project Managers
 
-  - name: Risk Assessment
-    problem: Risks are undocumented.
-    objective: Analyze risks.
+  - name: Weekly Project Status Reporting System
+    problem: Weekly reporting consumes excessive project time.
+    objective: Generate executive project reports automatically.
     audience: PMO
 
-  - name: Status Reporting
-    problem: Reports consume time.
-    objective: Produce status reports.
-    audience: Stakeholders
+  - name: Project Risk Assessment System
+    problem: Project risks are identified too late.
+    objective: Evaluate project risks proactively.
+    audience: Project Leaders
 
-  - name: Meeting Summary
-    problem: Decisions are forgotten.
-    objective: Summarize meetings.
-    audience: Teams
+  - name: Stakeholder Communication System
+    problem: Stakeholder communication lacks consistency.
+    objective: Produce professional stakeholder communications.
+    audience: Project Managers
 
-  - name: Lessons Learned
-    problem: Knowledge isn't reused.
-    objective: Capture lessons learned.
-    audience: Organizations
+  - name: Lessons Learned Documentation System
+    problem: Valuable project experience is never documented.
+    objective: Preserve organizational knowledge.
+    audience: PMO
 
 executive-productivity:
 
-  - name: Executive Email
-    problem: Emails consume time.
-    objective: Produce executive emails.
+  - name: Executive Decision Memo System
+    problem: Executive decisions are poorly documented.
+    objective: Produce concise executive decision memos.
     audience: Executives
 
-  - name: Meeting Brief
-    problem: Meetings start without context.
-    objective: Prepare executive briefs.
-    audience: Leaders
-
-  - name: Decision Memo
-    problem: Decisions lack documentation.
-    objective: Produce decision memos.
+  - name: Executive Presentation Builder System
+    problem: Executive presentations require excessive preparation time.
+    objective: Create presentation-ready business content.
     audience: Directors
 
-  - name: Presentation Builder
-    problem: Presentations take hours.
-    objective: Build presentations.
+  - name: Weekly Leadership Summary System
+    problem: Leadership updates are repetitive and inconsistent.
+    objective: Produce weekly executive summaries.
+    audience: Leadership
+
+  - name: Executive Email Assistant System
+    problem: Executive emails consume valuable time.
+    objective: Draft executive-quality communications.
     audience: Executives
 
-  - name: Weekly Executive Summary
-    problem: Weekly reporting is repetitive.
-    objective: Produce executive summaries.
-    audience: Leadership
+  - name: Strategic Meeting Preparation System
+    problem: Strategic meetings begin without adequate preparation.
+    objective: Prepare structured executive meeting briefs.
+    audience: Senior Management

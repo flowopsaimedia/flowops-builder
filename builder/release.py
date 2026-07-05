@@ -1,31 +1,35 @@
 from pathlib import Path
 import shutil
 
+from build_product import build_product
+from builder.pdf_generator import markdown_to_pdf
+from builder.product_generator import build
 from builder.specification import load
 
 ROOT = Path(__file__).resolve().parent.parent
 
 PRODUCT = ROOT / "products" / "ai-workday-accelerator-kit"
 
-SRC = PRODUCT / "src"
+BUILD = PRODUCT / "build"
 
 RELEASE = PRODUCT / "release"
 
 
-def copy_if_exists(source: Path, destination: Path):
-    if source.exists():
-        shutil.copy(source, destination)
-
-
 def build_release(spec_name: str):
+
+    # 1. Generar módulos
+    build(spec_name)
+
+    # 2. Compilar producto
+    build_product()
+
+    # 3. Generar PDF
+    markdown_to_pdf()
 
     spec = load(spec_name)
 
-    product = spec["product"]
-
-    version = str(product["version"])
-
-    edition = product["edition"].replace(" ", "_")
+    version = spec["product"]["version"]
+    edition = spec["product"]["edition"].replace(" ", "_")
 
     target = RELEASE / f"AI_Workday_Accelerator_Kit_{edition}_v{version}"
 
@@ -34,25 +38,39 @@ def build_release(spec_name: str):
 
     target.mkdir(parents=True)
 
-    modules = target / "modules"
-    templates = target / "templates"
-    examples = target / "examples"
-    bonus = target / "bonus"
+    (target / "modules").mkdir()
+    (target / "templates").mkdir()
+    (target / "examples").mkdir()
+    (target / "bonus").mkdir()
 
-    modules.mkdir()
-    templates.mkdir()
-    examples.mkdir()
-    bonus.mkdir()
+    # Copiar módulos Markdown
 
-    # Copiar módulos
-    for file in SRC.glob("*.md"):
-        shutil.copy(file, modules / file.name)
+    for file in BUILD.glob("*.md"):
 
-    # Copiar documentos principales
-    copy_if_exists(PRODUCT / "README.md", target)
-    copy_if_exists(PRODUCT / "QUICK_START.md", target)
-    copy_if_exists(PRODUCT / "CHANGELOG.md", target)
-    copy_if_exists(PRODUCT / "LICENSE.md", target)
+        shutil.copy(
+            file,
+            target / "modules" / file.name
+        )
+
+    # Copiar PDF
+
+    pdf = BUILD / "AI_Workday_Accelerator_Kit.pdf"
+
+    if pdf.exists():
+
+        shutil.copy(
+            pdf,
+            target / pdf.name
+        )
+
+    # Copiar README / QUICK_START
+
+    for file in PRODUCT.glob("*.md"):
+
+        shutil.copy(
+            file,
+            target / file.name
+        )
 
     archive = shutil.make_archive(
         str(target),
@@ -61,19 +79,10 @@ def build_release(spec_name: str):
     )
 
     print()
-    print("Release created successfully")
+    print("======================================")
+    print(" RELEASE SUCCESSFULLY GENERATED")
+    print("======================================")
     print(target)
-
     print()
-    print("ZIP created")
-    print(archive)
-
-    archive = shutil.make_archive(
-    str(target),
-    "zip",
-    target
-    )
-
-    print()
-    print("ZIP created:")
+    print("ZIP")
     print(archive)

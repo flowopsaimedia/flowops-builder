@@ -4,39 +4,36 @@ import shutil
 ROOT = Path(__file__).parent
 
 PRODUCT = ROOT / "products" / "ai-workday-accelerator-kit"
-
 SRC = PRODUCT / "src"
-
 BUILD = PRODUCT / "build"
 
-BUILD.mkdir(exist_ok=True)
 
-master = BUILD / "AI_Workday_Accelerator_Kit.md"
+def build_product():
 
-parts = []
+    BUILD.mkdir(parents=True, exist_ok=True)
 
-for file in sorted(SRC.glob("*.md")):
+    master = BUILD / "AI_Workday_Accelerator_Kit.md"
 
-    text = file.read_text(encoding="utf8")
+    parts = []
 
-    parts.append(text)
+    for file in sorted(SRC.glob("*.md")):
 
-    parts.append("\n\n---\n\n")
+        parts.append(file.read_text(encoding="utf8"))
+        parts.append("\n\n---\n\n")
 
-master.write_text(
+    master.write_text(
+        "".join(parts),
+        encoding="utf8"
+    )
 
-    "".join(parts),
+    for file in PRODUCT.glob("*.md"):
 
-    encoding="utf8"
+        shutil.copy(file, BUILD / file.name)
 
-)
+    print()
+    print("BUILD COMPLETE")
+    print(master)
 
-for file in PRODUCT.glob("*.md"):
 
-    shutil.copy(file, BUILD / file.name)
-
-print()
-
-print("BUILD COMPLETE")
-
-print(master)
+if __name__ == "__main__":
+    build_product()

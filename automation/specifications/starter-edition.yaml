@@ -1,0 +1,26 @@
+product:
+  name: AI Workday Accelerator Kit
+  edition: Starter Edition
+  version: 1.0
+
+modules:
+
+  - id: excel-intelligence
+    title: Excel Intelligence
+    workflows: 5
+
+  - id: technical-documentation
+    title: Technical Documentation
+    workflows: 5
+
+  - id: troubleshooting
+    title: IT Troubleshooting
+    workflows: 5
+
+  - id: project-delivery
+    title: Project Delivery
+    workflows: 5
+
+  - id: executive-productivity
+    title: Executive Productivity
+    workflows: 5

@@ -1,0 +1,134 @@
+excel-intelligence:
+
+  - name: Formula Builder
+    problem: Creating complex Excel formulas.
+    objective: Generate optimized formulas.
+    audience: Excel users
+
+  - name: Data Cleaning
+    problem: Inconsistent business data.
+    objective: Clean datasets.
+    audience: Business analysts
+
+  - name: Dashboard Designer
+    problem: Poor dashboards.
+    objective: Build executive dashboards.
+    audience: Managers
+
+  - name: Executive Reports
+    problem: Weekly reporting takes too much time.
+    objective: Generate executive summaries.
+    audience: Executives
+
+  - name: Business Insights
+    problem: Raw data doesn't explain decisions.
+    objective: Generate business recommendations.
+    audience: Decision makers
+
+technical-documentation:
+
+  - name: Technical Guide
+    problem: Documentation is inconsistent.
+    objective: Produce professional documentation.
+    audience: Technical teams
+
+  - name: Procedure Builder
+    problem: Procedures vary between authors.
+    objective: Standardize procedures.
+    audience: Operations
+
+  - name: Root Cause Analysis
+    problem: RCA documents are incomplete.
+    objective: Produce structured RCA.
+    audience: Support
+
+  - name: Integration Documentation
+    problem: Integrations lack documentation.
+    objective: Document enterprise integrations.
+    audience: Architects
+
+  - name: Knowledge Transfer
+    problem: Knowledge is lost between teams.
+    objective: Preserve operational knowledge.
+    audience: Support Teams
+
+troubleshooting:
+
+  - name: Incident Diagnosis
+    problem: Slow incident resolution.
+    objective: Diagnose incidents.
+    audience: Support
+
+  - name: Log Analysis
+    problem: Logs are difficult to interpret.
+    objective: Analyze logs.
+    audience: Engineers
+
+  - name: Error Investigation
+    problem: Root causes are unknown.
+    objective: Investigate failures.
+    audience: Developers
+
+  - name: Performance Analysis
+    problem: Systems become slow.
+    objective: Detect bottlenecks.
+    audience: Infrastructure
+
+  - name: Recovery Plan
+    problem: Recovery is improvised.
+    objective: Build recovery plans.
+    audience: Operations
+
+project-delivery:
+
+  - name: Project Planning
+    problem: Weak planning.
+    objective: Produce project plans.
+    audience: Project Managers
+
+  - name: Risk Assessment
+    problem: Risks are undocumented.
+    objective: Analyze risks.
+    audience: PMO
+
+  - name: Status Reporting
+    problem: Reports consume time.
+    objective: Produce status reports.
+    audience: Stakeholders
+
+  - name: Meeting Summary
+    problem: Decisions are forgotten.
+    objective: Summarize meetings.
+    audience: Teams
+
+  - name: Lessons Learned
+    problem: Knowledge isn't reused.
+    objective: Capture lessons learned.
+    audience: Organizations
+
+executive-productivity:
+
+  - name: Executive Email
+    problem: Emails consume time.
+    objective: Produce executive emails.
+    audience: Executives
+
+  - name: Meeting Brief
+    problem: Meetings start without context.
+    objective: Prepare executive briefs.
+    audience: Leaders
+
+  - name: Decision Memo
+    problem: Decisions lack documentation.
+    objective: Produce decision memos.
+    audience: Directors
+
+  - name: Presentation Builder
+    problem: Presentations take hours.
+    objective: Build presentations.
+    audience: Executives
+
+  - name: Weekly Executive Summary
+    problem: Weekly reporting is repetitive.
+    objective: Produce executive summaries.
+    audience: Leadership

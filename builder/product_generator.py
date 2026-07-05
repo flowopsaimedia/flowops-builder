@@ -2,48 +2,11 @@ from pathlib import Path
 from jinja2 import Template
 
 from builder.specification import load
+from builder.knowledge import workflows
 
 ROOT = Path(__file__).resolve().parent.parent
 
 PRODUCT = ROOT / "products" / "ai-workday-accelerator-kit" / "src"
-
-WORKFLOW_NAMES = {
-    "excel-intelligence": [
-        "Formula Builder",
-        "Data Cleaning",
-        "Dashboard Designer",
-        "Executive Reports",
-        "Business Insights",
-    ],
-    "technical-documentation": [
-        "Technical Guide",
-        "Procedure Builder",
-        "Root Cause Analysis",
-        "Integration Documentation",
-        "Knowledge Transfer",
-    ],
-    "troubleshooting": [
-        "Incident Diagnosis",
-        "Log Analysis",
-        "Error Investigation",
-        "Performance Analysis",
-        "Recovery Plan",
-    ],
-    "project-delivery": [
-        "Project Planning",
-        "Risk Assessment",
-        "Status Reporting",
-        "Meeting Summary",
-        "Lessons Learned",
-    ],
-    "executive-productivity": [
-        "Executive Email",
-        "Meeting Brief",
-        "Decision Memo",
-        "Presentation Builder",
-        "Weekly Executive Summary",
-    ],
-}
 
 MODULE_TEMPLATE = Template("""
 # {{ title }}
@@ -56,61 +19,65 @@ This system helps professionals accelerate repetitive business tasks using AI-dr
 
 ---
 
-## Workflow {{ loop.index }} — {{ wf }}
+## Workflow {{ loop.index }} — {{ wf.name }}
 
 ### Problem
 
-Professionals spend too much time performing repetitive work related to **{{ wf }}**.
+{{ wf.problem }}
 
 ### Objective
 
-Use AI to reduce manual effort while improving quality and consistency.
+{{ wf.objective }}
+
+### Audience
+
+{{ wf.audience }}
 
 ### AI Prompt
 
-You are a senior business consultant specialized in {{ wf }}.
+You are a senior consultant specialized in **{{ wf.name }}**.
 
-Help me complete this task professionally.
+Help me solve the following task.
 
-Context:
+Business Context
 
-[Describe the business scenario]
+[Describe your situation]
 
-Requirements:
+Requirements
 
-- Deliver a professional result.
+- Produce a professional result.
 - Explain your reasoning.
-- Suggest improvements.
-- Highlight possible risks.
-- Recommend best practices.
+- Recommend improvements.
+- Identify risks.
+- Suggest best practices.
 
 ### Expected Output
 
 - Professional deliverable
 - Actionable recommendations
-- Clear structure
-- Business language
+- Clear business language
+- Practical next steps
 
 ### Example
 
-Provide a realistic business example adapted to the supplied context.
+Adapt your response to the supplied business context.
 
 ### Best Practices
 
-- Always provide business context.
-- Explain the desired outcome.
-- Include constraints.
+- Include enough business context.
+- Specify the desired outcome.
+- Mention constraints.
 - Review the generated result.
 
 ### Common Mistakes
 
-- Missing context.
-- Vague instructions.
-- No business objective.
+- Missing business context.
+- Ambiguous instructions.
+- Undefined objectives.
 
 ### Pro Tip
 
-Treat AI like an experienced consultant instead of a search engine.
+Treat AI as a senior consultant instead of a search engine.
 
 {% endfor %}
 """)
@@ -120,16 +87,20 @@ def build(spec_name: str):
 
     spec = load(spec_name)
 
+    knowledge = workflows()
+
     PRODUCT.mkdir(parents=True, exist_ok=True)
 
     for module in spec["modules"]:
 
+        module_id = module["id"]
+
         content = MODULE_TEMPLATE.render(
             title=module["title"],
-            workflows=WORKFLOW_NAMES[module["id"]]
+            workflows=knowledge[module_id]
         )
 
-        file = PRODUCT / f"{module['id']}.md"
+        file = PRODUCT / f"{module_id}.md"
 
         file.write_text(
             content,

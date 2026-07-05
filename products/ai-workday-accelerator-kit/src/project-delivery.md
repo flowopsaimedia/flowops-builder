@@ -13,57 +13,61 @@ This system helps professionals accelerate repetitive business tasks using AI-dr
 
 ### Problem
 
-Professionals spend too much time performing repetitive work related to **Project Planning**.
+Weak planning.
 
 ### Objective
 
-Use AI to reduce manual effort while improving quality and consistency.
+Produce project plans.
+
+### Audience
+
+Project Managers
 
 ### AI Prompt
 
-You are a senior business consultant specialized in Project Planning.
+You are a senior consultant specialized in **Project Planning**.
 
-Help me complete this task professionally.
+Help me solve the following task.
 
-Context:
+Business Context
 
-[Describe the business scenario]
+[Describe your situation]
 
-Requirements:
+Requirements
 
-- Deliver a professional result.
+- Produce a professional result.
 - Explain your reasoning.
-- Suggest improvements.
-- Highlight possible risks.
-- Recommend best practices.
+- Recommend improvements.
+- Identify risks.
+- Suggest best practices.
 
 ### Expected Output
 
 - Professional deliverable
 - Actionable recommendations
-- Clear structure
-- Business language
+- Clear business language
+- Practical next steps
 
 ### Example
 
-Provide a realistic business example adapted to the supplied context.
+Adapt your response to the supplied business context.
 
 ### Best Practices
 
-- Always provide business context.
-- Explain the desired outcome.
-- Include constraints.
+- Include enough business context.
+- Specify the desired outcome.
+- Mention constraints.
 - Review the generated result.
 
 ### Common Mistakes
 
-- Missing context.
-- Vague instructions.
-- No business objective.
+- Missing business context.
+- Ambiguous instructions.
+- Undefined objectives.
 
 ### Pro Tip
 
-Treat AI like an experienced consultant instead of a search engine.
+Treat AI as a senior consultant instead of a search engine.
 
 
 
@@ -73,57 +77,61 @@ Treat AI like an experienced consultant instead of a search engine.
 
 ### Problem
 
-Professionals spend too much time performing repetitive work related to **Risk Assessment**.
+Risks are undocumented.
 
 ### Objective
 
-Use AI to reduce manual effort while improving quality and consistency.
+Analyze risks.
+
+### Audience
+
+PMO
 
 ### AI Prompt
 
-You are a senior business consultant specialized in Risk Assessment.
+You are a senior consultant specialized in **Risk Assessment**.
 
-Help me complete this task professionally.
+Help me solve the following task.
 
-Context:
+Business Context
 
-[Describe the business scenario]
+[Describe your situation]
 
-Requirements:
+Requirements
 
-- Deliver a professional result.
+- Produce a professional result.
 - Explain your reasoning.
-- Suggest improvements.
-- Highlight possible risks.
-- Recommend best practices.
+- Recommend improvements.
+- Identify risks.
+- Suggest best practices.
 
 ### Expected Output
 
 - Professional deliverable
 - Actionable recommendations
-- Clear structure
-- Business language
+- Clear business language
+- Practical next steps
 
 ### Example
 
-Provide a realistic business example adapted to the supplied context.
+Adapt your response to the supplied business context.
 
 ### Best Practices
 
-- Always provide business context.
-- Explain the desired outcome.
-- Include constraints.
+- Include enough business context.
+- Specify the desired outcome.
+- Mention constraints.
 - Review the generated result.
 
 ### Common Mistakes
 
-- Missing context.
-- Vague instructions.
-- No business objective.
+- Missing business context.
+- Ambiguous instructions.
+- Undefined objectives.
 
 ### Pro Tip
 
-Treat AI like an experienced consultant instead of a search engine.
+Treat AI as a senior consultant instead of a search engine.
 
 
 
@@ -133,57 +141,61 @@ Treat AI like an experienced consultant instead of a search engine.
 
 ### Problem
 
-Professionals spend too much time performing repetitive work related to **Status Reporting**.
+Reports consume time.
 
 ### Objective
 
-Use AI to reduce manual effort while improving quality and consistency.
+Produce status reports.
+
+### Audience
+
+Stakeholders
 
 ### AI Prompt
 
-You are a senior business consultant specialized in Status Reporting.
+You are a senior consultant specialized in **Status Reporting**.
 
-Help me complete this task professionally.
+Help me solve the following task.
 
-Context:
+Business Context
 
-[Describe the business scenario]
+[Describe your situation]
 
-Requirements:
+Requirements
 
-- Deliver a professional result.
+- Produce a professional result.
 - Explain your reasoning.
-- Suggest improvements.
-- Highlight possible risks.
-- Recommend best practices.
+- Recommend improvements.
+- Identify risks.
+- Suggest best practices.
 
 ### Expected Output
 
 - Professional deliverable
 - Actionable recommendations
-- Clear structure
-- Business language
+- Clear business language
+- Practical next steps
 
 ### Example
 
-Provide a realistic business example adapted to the supplied context.
+Adapt your response to the supplied business context.
 
 ### Best Practices
 
-- Always provide business context.
-- Explain the desired outcome.
-- Include constraints.
+- Include enough business context.
+- Specify the desired outcome.
+- Mention constraints.
 - Review the generated result.
 
 ### Common Mistakes
 
-- Missing context.
-- Vague instructions.
-- No business objective.
+- Missing business context.
+- Ambiguous instructions.
+- Undefined objectives.
 
 ### Pro Tip
 
-Treat AI like an experienced consultant instead of a search engine.
+Treat AI as a senior consultant instead of a search engine.
 
 
 
@@ -193,57 +205,61 @@ Treat AI like an experienced consultant instead of a search engine.
 
 ### Problem
 
-Professionals spend too much time performing repetitive work related to **Meeting Summary**.
+Decisions are forgotten.
 
 ### Objective
 
-Use AI to reduce manual effort while improving quality and consistency.
+Summarize meetings.
+
+### Audience
+
+Teams
 
 ### AI Prompt
 
-You are a senior business consultant specialized in Meeting Summary.
+You are a senior consultant specialized in **Meeting Summary**.
 
-Help me complete this task professionally.
+Help me solve the following task.
 
-Context:
+Business Context
 
-[Describe the business scenario]
+[Describe your situation]
 
-Requirements:
+Requirements
 
-- Deliver a professional result.
+- Produce a professional result.
 - Explain your reasoning.
-- Suggest improvements.
-- Highlight possible risks.
-- Recommend best practices.
+- Recommend improvements.
+- Identify risks.
+- Suggest best practices.
 
 ### Expected Output
 
 - Professional deliverable
 - Actionable recommendations
-- Clear structure
-- Business language
+- Clear business language
+- Practical next steps
 
 ### Example
 
-Provide a realistic business example adapted to the supplied context.
+Adapt your response to the supplied business context.
 
 ### Best Practices
 
-- Always provide business context.
-- Explain the desired outcome.
-- Include constraints.
+- Include enough business context.
+- Specify the desired outcome.
+- Mention constraints.
 - Review the generated result.
 
 ### Common Mistakes
 
-- Missing context.
-- Vague instructions.
-- No business objective.
+- Missing business context.
+- Ambiguous instructions.
+- Undefined objectives.
 
 ### Pro Tip
 
-Treat AI like an experienced consultant instead of a search engine.
+Treat AI as a senior consultant instead of a search engine.
 
 
 
@@ -253,55 +269,59 @@ Treat AI like an experienced consultant instead of a search engine.
 
 ### Problem
 
-Professionals spend too much time performing repetitive work related to **Lessons Learned**.
+Knowledge isn't reused.
 
 ### Objective
 
-Use AI to reduce manual effort while improving quality and consistency.
+Capture lessons learned.
+
+### Audience
+
+Organizations
 
 ### AI Prompt
 
-You are a senior business consultant specialized in Lessons Learned.
+You are a senior consultant specialized in **Lessons Learned**.
 
-Help me complete this task professionally.
+Help me solve the following task.
 
-Context:
+Business Context
 
-[Describe the business scenario]
+[Describe your situation]
 
-Requirements:
+Requirements
 
-- Deliver a professional result.
+- Produce a professional result.
 - Explain your reasoning.
-- Suggest improvements.
-- Highlight possible risks.
-- Recommend best practices.
+- Recommend improvements.
+- Identify risks.
+- Suggest best practices.
 
 ### Expected Output
 
 - Professional deliverable
 - Actionable recommendations
-- Clear structure
-- Business language
+- Clear business language
+- Practical next steps
 
 ### Example
 
-Provide a realistic business example adapted to the supplied context.
+Adapt your response to the supplied business context.
 
 ### Best Practices
 
-- Always provide business context.
-- Explain the desired outcome.
-- Include constraints.
+- Include enough business context.
+- Specify the desired outcome.
+- Mention constraints.
 - Review the generated result.
 
 ### Common Mistakes
 
-- Missing context.
-- Vague instructions.
-- No business objective.
+- Missing business context.
+- Ambiguous instructions.
+- Undefined objectives.
 
 ### Pro Tip
 
-Treat AI like an experienced consultant instead of a search engine.
+Treat AI as a senior consultant instead of a search engine.
 

@@ -13,57 +13,61 @@ This system helps professionals accelerate repetitive business tasks using AI-dr
 
 ### Problem
 
-Professionals spend too much time performing repetitive work related to **Formula Builder**.
+Creating complex Excel formulas.
 
 ### Objective
 
-Use AI to reduce manual effort while improving quality and consistency.
+Generate optimized formulas.
+
+### Audience
+
+Excel users
 
 ### AI Prompt
 
-You are a senior business consultant specialized in Formula Builder.
+You are a senior consultant specialized in **Formula Builder**.
 
-Help me complete this task professionally.
+Help me solve the following task.
 
-Context:
+Business Context
 
-[Describe the business scenario]
+[Describe your situation]
 
-Requirements:
+Requirements
 
-- Deliver a professional result.
+- Produce a professional result.
 - Explain your reasoning.
-- Suggest improvements.
-- Highlight possible risks.
-- Recommend best practices.
+- Recommend improvements.
+- Identify risks.
+- Suggest best practices.
 
 ### Expected Output
 
 - Professional deliverable
 - Actionable recommendations
-- Clear structure
-- Business language
+- Clear business language
+- Practical next steps
 
 ### Example
 
-Provide a realistic business example adapted to the supplied context.
+Adapt your response to the supplied business context.
 
 ### Best Practices
 
-- Always provide business context.
-- Explain the desired outcome.
-- Include constraints.
+- Include enough business context.
+- Specify the desired outcome.
+- Mention constraints.
 - Review the generated result.
 
 ### Common Mistakes
 
-- Missing context.
-- Vague instructions.
-- No business objective.
+- Missing business context.
+- Ambiguous instructions.
+- Undefined objectives.
 
 ### Pro Tip
 
-Treat AI like an experienced consultant instead of a search engine.
+Treat AI as a senior consultant instead of a search engine.
 
 
 
@@ -73,57 +77,61 @@ Treat AI like an experienced consultant instead of a search engine.
 
 ### Problem
 
-Professionals spend too much time performing repetitive work related to **Data Cleaning**.
+Inconsistent business data.
 
 ### Objective
 
-Use AI to reduce manual effort while improving quality and consistency.
+Clean datasets.
+
+### Audience
+
+Business analysts
 
 ### AI Prompt
 
-You are a senior business consultant specialized in Data Cleaning.
+You are a senior consultant specialized in **Data Cleaning**.
 
-Help me complete this task professionally.
+Help me solve the following task.
 
-Context:
+Business Context
 
-[Describe the business scenario]
+[Describe your situation]
 
-Requirements:
+Requirements
 
-- Deliver a professional result.
+- Produce a professional result.
 - Explain your reasoning.
-- Suggest improvements.
-- Highlight possible risks.
-- Recommend best practices.
+- Recommend improvements.
+- Identify risks.
+- Suggest best practices.
 
 ### Expected Output
 
 - Professional deliverable
 - Actionable recommendations
-- Clear structure
-- Business language
+- Clear business language
+- Practical next steps
 
 ### Example
 
-Provide a realistic business example adapted to the supplied context.
+Adapt your response to the supplied business context.
 
 ### Best Practices
 
-- Always provide business context.
-- Explain the desired outcome.
-- Include constraints.
+- Include enough business context.
+- Specify the desired outcome.
+- Mention constraints.
 - Review the generated result.
 
 ### Common Mistakes
 
-- Missing context.
-- Vague instructions.
-- No business objective.
+- Missing business context.
+- Ambiguous instructions.
+- Undefined objectives.
 
 ### Pro Tip
 
-Treat AI like an experienced consultant instead of a search engine.
+Treat AI as a senior consultant instead of a search engine.
 
 
 
@@ -133,57 +141,61 @@ Treat AI like an experienced consultant instead of a search engine.
 
 ### Problem
 
-Professionals spend too much time performing repetitive work related to **Dashboard Designer**.
+Poor dashboards.
 
 ### Objective
 
-Use AI to reduce manual effort while improving quality and consistency.
+Build executive dashboards.
+
+### Audience
+
+Managers
 
 ### AI Prompt
 
-You are a senior business consultant specialized in Dashboard Designer.
+You are a senior consultant specialized in **Dashboard Designer**.
 
-Help me complete this task professionally.
+Help me solve the following task.
 
-Context:
+Business Context
 
-[Describe the business scenario]
+[Describe your situation]
 
-Requirements:
+Requirements
 
-- Deliver a professional result.
+- Produce a professional result.
 - Explain your reasoning.
-- Suggest improvements.
-- Highlight possible risks.
-- Recommend best practices.
+- Recommend improvements.
+- Identify risks.
+- Suggest best practices.
 
 ### Expected Output
 
 - Professional deliverable
 - Actionable recommendations
-- Clear structure
-- Business language
+- Clear business language
+- Practical next steps
 
 ### Example
 
-Provide a realistic business example adapted to the supplied context.
+Adapt your response to the supplied business context.
 
 ### Best Practices
 
-- Always provide business context.
-- Explain the desired outcome.
-- Include constraints.
+- Include enough business context.
+- Specify the desired outcome.
+- Mention constraints.
 - Review the generated result.
 
 ### Common Mistakes
 
-- Missing context.
-- Vague instructions.
-- No business objective.
+- Missing business context.
+- Ambiguous instructions.
+- Undefined objectives.
 
 ### Pro Tip
 
-Treat AI like an experienced consultant instead of a search engine.
+Treat AI as a senior consultant instead of a search engine.
 
 
 
@@ -193,57 +205,61 @@ Treat AI like an experienced consultant instead of a search engine.
 
 ### Problem
 
-Professionals spend too much time performing repetitive work related to **Executive Reports**.
+Weekly reporting takes too much time.
 
 ### Objective
 
-Use AI to reduce manual effort while improving quality and consistency.
+Generate executive summaries.
+
+### Audience
+
+Executives
 
 ### AI Prompt
 
-You are a senior business consultant specialized in Executive Reports.
+You are a senior consultant specialized in **Executive Reports**.
 
-Help me complete this task professionally.
+Help me solve the following task.
 
-Context:
+Business Context
 
-[Describe the business scenario]
+[Describe your situation]
 
-Requirements:
+Requirements
 
-- Deliver a professional result.
+- Produce a professional result.
 - Explain your reasoning.
-- Suggest improvements.
-- Highlight possible risks.
-- Recommend best practices.
+- Recommend improvements.
+- Identify risks.
+- Suggest best practices.
 
 ### Expected Output
 
 - Professional deliverable
 - Actionable recommendations
-- Clear structure
-- Business language
+- Clear business language
+- Practical next steps
 
 ### Example
 
-Provide a realistic business example adapted to the supplied context.
+Adapt your response to the supplied business context.
 
 ### Best Practices
 
-- Always provide business context.
-- Explain the desired outcome.
-- Include constraints.
+- Include enough business context.
+- Specify the desired outcome.
+- Mention constraints.
 - Review the generated result.
 
 ### Common Mistakes
 
-- Missing context.
-- Vague instructions.
-- No business objective.
+- Missing business context.
+- Ambiguous instructions.
+- Undefined objectives.
 
 ### Pro Tip
 
-Treat AI like an experienced consultant instead of a search engine.
+Treat AI as a senior consultant instead of a search engine.
 
 
 
@@ -253,55 +269,59 @@ Treat AI like an experienced consultant instead of a search engine.
 
 ### Problem
 
-Professionals spend too much time performing repetitive work related to **Business Insights**.
+Raw data doesn't explain decisions.
 
 ### Objective
 
-Use AI to reduce manual effort while improving quality and consistency.
+Generate business recommendations.
+
+### Audience
+
+Decision makers
 
 ### AI Prompt
 
-You are a senior business consultant specialized in Business Insights.
+You are a senior consultant specialized in **Business Insights**.
 
-Help me complete this task professionally.
+Help me solve the following task.
 
-Context:
+Business Context
 
-[Describe the business scenario]
+[Describe your situation]
 
-Requirements:
+Requirements
 
-- Deliver a professional result.
+- Produce a professional result.
 - Explain your reasoning.
-- Suggest improvements.
-- Highlight possible risks.
-- Recommend best practices.
+- Recommend improvements.
+- Identify risks.
+- Suggest best practices.
 
 ### Expected Output
 
 - Professional deliverable
 - Actionable recommendations
-- Clear structure
-- Business language
+- Clear business language
+- Practical next steps
 
 ### Example
 
-Provide a realistic business example adapted to the supplied context.
+Adapt your response to the supplied business context.
 
 ### Best Practices
 
-- Always provide business context.
-- Explain the desired outcome.
-- Include constraints.
+- Include enough business context.
+- Specify the desired outcome.
+- Mention constraints.
 - Review the generated result.
 
 ### Common Mistakes
 
-- Missing context.
-- Vague instructions.
-- No business objective.
+- Missing business context.
+- Ambiguous instructions.
+- Undefined objectives.
 
 ### Pro Tip
 
-Treat AI like an experienced consultant instead of a search engine.
+Treat AI as a senior consultant instead of a search engine.
 

@@ -1,0 +1,202 @@
+/* ==========================
+   LOCAL FONTS
+========================== */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter');
+}
+
+/* ==========================
+   BODY
+========================== */
+
+body {
+    font-family: Inter, Segoe UI, Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.28;
+
+    color: #033F63;
+    background-color: #FFFFFF;
+
+    margin: 0;
+    padding: 0;
+}
+
+/* ==========================
+   H1 — MAIN TITLES
+========================== */
+
+h1 {
+    font-family: Montserrat, Segoe UI, Arial, sans-serif;
+    font-size: 24pt;
+    font-weight: 700;
+
+    color: #033F63;
+
+    margin-top: 18px;
+    margin-bottom: 12px;
+
+    padding-bottom: 8px;
+
+    border-bottom: 2px solid #28666E;
+
+    line-height: 1.08;
+}
+
+/* ==========================
+   HERO MODULES
+========================== */
+
+.hero {
+    display: block;
+
+    box-sizing: border-box;
+
+    width: auto;
+    max-width: 100%;
+
+    margin-top: 14px;
+    margin-bottom: 12px;
+
+    padding: 14px 18px;
+
+    border-left: 6px solid #28666E;
+
+    border-radius: 8px;
+
+    font-family: Montserrat, Segoe UI, Arial, sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+
+    color: #033F63;
+
+    page-break-inside: avoid;
+}
+
+/* ==========================
+   HERO COLORS
+========================== */
+
+.hero-analytics {
+    background-color: rgba(40,102,110,0.08);
+    border-left-color: #28666E;
+}
+
+.hero-documentation {
+    background-color: rgba(124,152,133,0.10);
+    border-left-color: #7C9885;
+}
+
+.hero-troubleshooting {
+    background-color: rgba(181,182,130,0.15);
+    border-left-color: #B5B682;
+}
+
+.hero-workflow {
+    background-color: rgba(3,63,99,0.08);
+    border-left-color: #033F63;
+}
+
+.hero-productivity {
+    background-color: rgba(40,102,110,0.10);
+    border-left-color: #28666E;
+}
+
+.hero-bestpractices {
+    background-color: rgba(254,220,151,0.20);
+    border-left-color: #FEDC97;
+}
+
+.hero-roadmap {
+    background-color: rgba(124,152,133,0.10);
+    border-left-color: #7C9885;
+}
+
+/* ==========================
+   H2
+========================== */
+
+h2 {
+    font-family: Montserrat, Segoe UI, Arial, sans-serif;
+    font-size: 16pt;
+    font-weight: 700;
+
+    color: #28666E;
+
+    margin-top: 14px;
+    margin-bottom: 6px;
+}
+
+/* ==========================
+   H3
+========================== */
+
+h3 {
+    font-family: Montserrat, Segoe UI, Arial, sans-serif;
+    font-size: 13pt;
+    font-weight: 700;
+
+    color: #7C9885;
+
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+/* ==========================
+   BODY TEXT
+========================== */
+
+p {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+ul,
+ol {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    padding-left: 18px;
+}
+
+li {
+    margin-bottom: 2px;
+}
+
+strong {
+    color: #033F63;
+    font-weight: 700;
+}
+
+/* ==========================
+   DIVIDERS
+========================== */
+
+hr {
+    border: none;
+    border-top: 1px solid #D9E4E1;
+
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/* ==========================
+   CALLOUTS
+========================== */
+
+blockquote {
+    background-color: rgba(254,220,151,0.18);
+
+    border-left: 4px solid #B5B682;
+
+    padding: 10px 14px;
+
+    border-radius: 8px;
+
+    margin: 12px 0;
+}

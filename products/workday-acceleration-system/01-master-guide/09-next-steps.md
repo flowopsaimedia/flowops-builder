@@ -1,6 +1,6 @@
 ﻿# Next Steps
 
-You now have access to the FlowOps AI â€” Workday Acceleration System.
+You now have access to the FlowOps AI - Workday Acceleration System.
 
 Recommended actions:
 

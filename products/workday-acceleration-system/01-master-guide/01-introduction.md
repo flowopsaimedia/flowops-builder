@@ -1,6 +1,6 @@
 ﻿# Introduction
 
-Welcome to the **FlowOps AI â€” Workday Acceleration System**.
+Welcome to the **FlowOps AI - Workday Acceleration System**.
 
 This is not a collection of random prompts.
 

@@ -101,7 +101,7 @@ Treat AI as a highly capable collaborator rather than a magic button.
 
 ---
 
-# Excel & Reporting
+# <span class='hero hero-analytics'>Excel & Reporting</span>
 
 Artificial intelligence can dramatically improve Excel productivity.
 
@@ -116,7 +116,7 @@ This module helps you:
 
 ---
 
-# Technical Documentation
+# <span class='hero hero-documentation'>Technical Documentation</span>
 
 Technical documentation often consumes unnecessary time.
 
@@ -130,7 +130,7 @@ This module helps professionals:
 
 ---
 
-# Troubleshooting & IT Analysis
+# <span class='hero hero-troubleshooting'>Troubleshooting & IT Analysis</span>
 
 Troubleshooting becomes dramatically faster when structured correctly.
 
@@ -144,7 +144,7 @@ This module helps you:
 
 ---
 
-# Project Management
+# <span class='hero hero-workflow'>Project Management</span>
 
 Project execution improves significantly when supported by structured AI workflows.
 
@@ -158,7 +158,7 @@ This module helps you:
 
 ---
 
-# Business Productivity
+# <span class='hero hero-productivity'>Business Productivity</span>
 
 Artificial intelligence can dramatically improve professional productivity.
 
@@ -172,7 +172,7 @@ This module helps you:
 
 ---
 
-# Best Practices
+# <span class='hero hero-bestpractices'>Best Practices</span>
 
 To maximize AI performance:
 
@@ -186,7 +186,7 @@ The best outputs come from clear thinking.
 
 ---
 
-# Next Steps
+# <span class='hero hero-roadmap'>Next Steps</span>
 
 You now have access to the FlowOps AI - Workday Acceleration System.
 
@@ -201,4 +201,5 @@ Recommended actions:
 Work smarter.
 
 ---
+
 

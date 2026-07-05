@@ -3,184 +3,305 @@
 
 ## Overview
 
-TODO
+This system helps professionals accelerate repetitive business tasks using AI-driven workflows.
+
+
 
 ---
 
-## Workflows
+## Workflow 1 — Incident Diagnosis
 
+### Problem
 
-### Workflow 1 — Incident Diagnosis
+Professionals spend too much time performing repetitive work related to **Incident Diagnosis**.
 
-#### Problem
+### Objective
 
-TODO
+Use AI to reduce manual effort while improving quality and consistency.
 
-#### Objective
+### AI Prompt
 
-TODO
+You are a senior business consultant specialized in Incident Diagnosis.
 
-#### AI Prompt
+Help me complete this task professionally.
 
-TODO
+Context:
 
-#### Expected Output
+[Describe the business scenario]
 
-TODO
+Requirements:
 
-#### Example
+- Deliver a professional result.
+- Explain your reasoning.
+- Suggest improvements.
+- Highlight possible risks.
+- Recommend best practices.
 
-TODO
+### Expected Output
 
-#### Best Practices
+- Professional deliverable
+- Actionable recommendations
+- Clear structure
+- Business language
 
-TODO
+### Example
 
-#### Common Mistakes
+Provide a realistic business example adapted to the supplied context.
 
-TODO
+### Best Practices
 
-#### Pro Tip
+- Always provide business context.
+- Explain the desired outcome.
+- Include constraints.
+- Review the generated result.
 
-TODO
+### Common Mistakes
 
+- Missing context.
+- Vague instructions.
+- No business objective.
 
-### Workflow 2 — Log Analysis
+### Pro Tip
 
-#### Problem
+Treat AI like an experienced consultant instead of a search engine.
 
-TODO
 
-#### Objective
 
-TODO
+---
 
-#### AI Prompt
+## Workflow 2 — Log Analysis
 
-TODO
+### Problem
 
-#### Expected Output
+Professionals spend too much time performing repetitive work related to **Log Analysis**.
 
-TODO
+### Objective
 
-#### Example
+Use AI to reduce manual effort while improving quality and consistency.
 
-TODO
+### AI Prompt
 
-#### Best Practices
+You are a senior business consultant specialized in Log Analysis.
 
-TODO
+Help me complete this task professionally.
 
-#### Common Mistakes
+Context:
 
-TODO
+[Describe the business scenario]
 
-#### Pro Tip
+Requirements:
 
-TODO
+- Deliver a professional result.
+- Explain your reasoning.
+- Suggest improvements.
+- Highlight possible risks.
+- Recommend best practices.
 
+### Expected Output
 
-### Workflow 3 — Error Investigation
+- Professional deliverable
+- Actionable recommendations
+- Clear structure
+- Business language
 
-#### Problem
+### Example
 
-TODO
+Provide a realistic business example adapted to the supplied context.
 
-#### Objective
+### Best Practices
 
-TODO
+- Always provide business context.
+- Explain the desired outcome.
+- Include constraints.
+- Review the generated result.
 
-#### AI Prompt
+### Common Mistakes
 
-TODO
+- Missing context.
+- Vague instructions.
+- No business objective.
 
-#### Expected Output
+### Pro Tip
 
-TODO
+Treat AI like an experienced consultant instead of a search engine.
 
-#### Example
 
-TODO
 
-#### Best Practices
+---
 
-TODO
+## Workflow 3 — Error Investigation
 
-#### Common Mistakes
+### Problem
 
-TODO
+Professionals spend too much time performing repetitive work related to **Error Investigation**.
 
-#### Pro Tip
+### Objective
 
-TODO
+Use AI to reduce manual effort while improving quality and consistency.
 
+### AI Prompt
 
-### Workflow 4 — Performance Analysis
+You are a senior business consultant specialized in Error Investigation.
 
-#### Problem
+Help me complete this task professionally.
 
-TODO
+Context:
 
-#### Objective
+[Describe the business scenario]
 
-TODO
+Requirements:
 
-#### AI Prompt
+- Deliver a professional result.
+- Explain your reasoning.
+- Suggest improvements.
+- Highlight possible risks.
+- Recommend best practices.
 
-TODO
+### Expected Output
 
-#### Expected Output
+- Professional deliverable
+- Actionable recommendations
+- Clear structure
+- Business language
 
-TODO
+### Example
 
-#### Example
+Provide a realistic business example adapted to the supplied context.
 
-TODO
+### Best Practices
 
-#### Best Practices
+- Always provide business context.
+- Explain the desired outcome.
+- Include constraints.
+- Review the generated result.
 
-TODO
+### Common Mistakes
 
-#### Common Mistakes
+- Missing context.
+- Vague instructions.
+- No business objective.
 
-TODO
+### Pro Tip
 
-#### Pro Tip
+Treat AI like an experienced consultant instead of a search engine.
 
-TODO
 
 
-### Workflow 5 — Recovery Plan
+---
 
-#### Problem
+## Workflow 4 — Performance Analysis
 
-TODO
+### Problem
 
-#### Objective
+Professionals spend too much time performing repetitive work related to **Performance Analysis**.
 
-TODO
+### Objective
 
-#### AI Prompt
+Use AI to reduce manual effort while improving quality and consistency.
 
-TODO
+### AI Prompt
 
-#### Expected Output
+You are a senior business consultant specialized in Performance Analysis.
 
-TODO
+Help me complete this task professionally.
 
-#### Example
+Context:
 
-TODO
+[Describe the business scenario]
 
-#### Best Practices
+Requirements:
 
-TODO
+- Deliver a professional result.
+- Explain your reasoning.
+- Suggest improvements.
+- Highlight possible risks.
+- Recommend best practices.
 
-#### Common Mistakes
+### Expected Output
 
-TODO
+- Professional deliverable
+- Actionable recommendations
+- Clear structure
+- Business language
 
-#### Pro Tip
+### Example
 
-TODO
+Provide a realistic business example adapted to the supplied context.
+
+### Best Practices
+
+- Always provide business context.
+- Explain the desired outcome.
+- Include constraints.
+- Review the generated result.
+
+### Common Mistakes
+
+- Missing context.
+- Vague instructions.
+- No business objective.
+
+### Pro Tip
+
+Treat AI like an experienced consultant instead of a search engine.
+
+
+
+---
+
+## Workflow 5 — Recovery Plan
+
+### Problem
+
+Professionals spend too much time performing repetitive work related to **Recovery Plan**.
+
+### Objective
+
+Use AI to reduce manual effort while improving quality and consistency.
+
+### AI Prompt
+
+You are a senior business consultant specialized in Recovery Plan.
+
+Help me complete this task professionally.
+
+Context:
+
+[Describe the business scenario]
+
+Requirements:
+
+- Deliver a professional result.
+- Explain your reasoning.
+- Suggest improvements.
+- Highlight possible risks.
+- Recommend best practices.
+
+### Expected Output
+
+- Professional deliverable
+- Actionable recommendations
+- Clear structure
+- Business language
+
+### Example
+
+Provide a realistic business example adapted to the supplied context.
+
+### Best Practices
+
+- Always provide business context.
+- Explain the desired outcome.
+- Include constraints.
+- Review the generated result.
+
+### Common Mistakes
+
+- Missing context.
+- Vague instructions.
+- No business objective.
+
+### Pro Tip
+
+Treat AI like an experienced consultant instead of a search engine.
 

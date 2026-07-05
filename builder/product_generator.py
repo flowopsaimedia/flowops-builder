@@ -1,63 +1,11 @@
 from pathlib import Path
+from jinja2 import Template
 
 from builder.specification import load
 
 ROOT = Path(__file__).resolve().parent.parent
 
 PRODUCT = ROOT / "products" / "ai-workday-accelerator-kit" / "src"
-
-
-WORKFLOW_TEMPLATE = """
-# {title}
-
-## Overview
-
-TODO
-
----
-
-## Workflows
-
-{workflows}
-"""
-
-
-WORKFLOW_BLOCK = """
-### Workflow {number} — {workflow}
-
-#### Problem
-
-TODO
-
-#### Objective
-
-TODO
-
-#### AI Prompt
-
-TODO
-
-#### Expected Output
-
-TODO
-
-#### Example
-
-TODO
-
-#### Best Practices
-
-TODO
-
-#### Common Mistakes
-
-TODO
-
-#### Pro Tip
-
-TODO
-"""
-
 
 WORKFLOW_NAMES = {
     "excel-intelligence": [
@@ -97,6 +45,76 @@ WORKFLOW_NAMES = {
     ],
 }
 
+MODULE_TEMPLATE = Template("""
+# {{ title }}
+
+## Overview
+
+This system helps professionals accelerate repetitive business tasks using AI-driven workflows.
+
+{% for wf in workflows %}
+
+---
+
+## Workflow {{ loop.index }} — {{ wf }}
+
+### Problem
+
+Professionals spend too much time performing repetitive work related to **{{ wf }}**.
+
+### Objective
+
+Use AI to reduce manual effort while improving quality and consistency.
+
+### AI Prompt
+
+You are a senior business consultant specialized in {{ wf }}.
+
+Help me complete this task professionally.
+
+Context:
+
+[Describe the business scenario]
+
+Requirements:
+
+- Deliver a professional result.
+- Explain your reasoning.
+- Suggest improvements.
+- Highlight possible risks.
+- Recommend best practices.
+
+### Expected Output
+
+- Professional deliverable
+- Actionable recommendations
+- Clear structure
+- Business language
+
+### Example
+
+Provide a realistic business example adapted to the supplied context.
+
+### Best Practices
+
+- Always provide business context.
+- Explain the desired outcome.
+- Include constraints.
+- Review the generated result.
+
+### Common Mistakes
+
+- Missing context.
+- Vague instructions.
+- No business objective.
+
+### Pro Tip
+
+Treat AI like an experienced consultant instead of a search engine.
+
+{% endfor %}
+""")
+
 
 def build(spec_name: str):
 
@@ -106,40 +124,16 @@ def build(spec_name: str):
 
     for module in spec["modules"]:
 
-        blocks = []
-
-        names = WORKFLOW_NAMES[module["id"]]
-
-        for i, workflow in enumerate(names, start=1):
-
-            blocks.append(
-
-                WORKFLOW_BLOCK.format(
-
-                    number=i,
-
-                    workflow=workflow
-
-                )
-
-            )
-
-        content = WORKFLOW_TEMPLATE.format(
-
+        content = MODULE_TEMPLATE.render(
             title=module["title"],
-
-            workflows="\n".join(blocks)
-
+            workflows=WORKFLOW_NAMES[module["id"]]
         )
 
-        filename = PRODUCT / f"{module['id']}.md"
+        file = PRODUCT / f"{module['id']}.md"
 
-        filename.write_text(
-
+        file.write_text(
             content,
-
             encoding="utf8"
-
         )
 
     print("Starter Edition generated successfully.")

@@ -1,8 +1,9 @@
 import argparse
 
 from builder.generator import create_prompt
-from builder.specification import load
 from builder.product_generator import build
+from builder.release import build_release
+from builder.specification import load
 
 
 def main():
@@ -14,77 +15,39 @@ def main():
 
     sub = parser.add_subparsers(dest="command")
 
-    # --------------------------------------------------
-    # new
-    # --------------------------------------------------
+    # ----------------------------------------------------
 
-    new = sub.add_parser(
-        "new",
-        help="Create new project assets"
-    )
+    new = sub.add_parser("new")
 
     new_sub = new.add_subparsers(dest="type")
 
-    prompt = new_sub.add_parser(
-        "prompt",
-        help="Create a new prompt"
-    )
+    prompt = new_sub.add_parser("prompt")
 
-    prompt.add_argument(
-        "--category",
-        required=True,
-        help="Prompt category"
-    )
+    prompt.add_argument("--category", required=True)
+    prompt.add_argument("--name", required=True)
+    prompt.add_argument("--title", required=True)
 
-    prompt.add_argument(
-        "--name",
-        required=True,
-        help="File name"
-    )
+    # ----------------------------------------------------
 
-    prompt.add_argument(
-        "--title",
-        required=True,
-        help="Prompt title"
-    )
+    spec = sub.add_parser("spec")
 
-    # --------------------------------------------------
-    # spec
-    # --------------------------------------------------
+    spec.add_argument("name")
 
-    spec = sub.add_parser(
-        "spec",
-        help="Load a product specification"
-    )
+    # ----------------------------------------------------
 
-    spec.add_argument(
-        "name",
-        help="Specification name"
-    )
+    generate = sub.add_parser("generate")
 
-    # --------------------------------------------------
-    # generate
-    # --------------------------------------------------
+    generate.add_argument("name")
 
-    generate = sub.add_parser(
-        "generate",
-        help="Generate product structure"
-    )
+    # ----------------------------------------------------
 
-    generate.add_argument(
-        "name",
-        help="Specification name"
-    )
+    release = sub.add_parser("release")
 
-    # --------------------------------------------------
-    # Parse
-    # --------------------------------------------------
+    release.add_argument("name")
+
+    # ----------------------------------------------------
 
     args = parser.parse_args()
-
-    # --------------------------------------------------
-    # Commands
-    # --------------------------------------------------
 
     if args.command == "new":
 
@@ -98,13 +61,15 @@ def main():
 
     elif args.command == "spec":
 
-        data = load(args.name)
-
-        print(data)
+        print(load(args.name))
 
     elif args.command == "generate":
 
         build(args.name)
+
+    elif args.command == "release":
+
+        build_release(args.name)
 
     else:
 

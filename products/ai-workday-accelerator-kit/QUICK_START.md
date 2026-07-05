@@ -1,24 +1,29 @@
 # Quick Start
 
-Start with the module that solves your immediate problem.
+Open the module that best matches your current work.
 
 Recommended order:
 
 1. Excel Intelligence
 2. Technical Documentation
-3. Troubleshooting
+3. IT Troubleshooting
 4. Project Delivery
 5. Executive Productivity
 
 Each workflow contains:
 
-- Use Case
+- Business problem
+- Objective
 - AI Prompt
 - Expected Output
 - Best Practices
+- Common Mistakes
+- Pro Tip
 
-Read one workflow.
+Read.
 
-Apply it immediately.
+Copy the prompt.
 
-Repeat.
+Adapt it.
+
+Execute it.

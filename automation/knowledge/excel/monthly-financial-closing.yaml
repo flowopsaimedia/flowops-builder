@@ -1,0 +1,56 @@
+name: Monthly Financial Closing System
+
+industry:
+  - Finance
+  - Accounting
+
+difficulty: Intermediate
+
+estimated_time_saved: 6-8 hours/month
+
+business_problem: |
+  Finance teams manually consolidate information from multiple sources,
+  validate figures, explain variances and prepare executive reports.
+  This process is repetitive, error-prone and delays decision making.
+
+business_outcome: |
+  Produce a complete monthly closing package including reconciliations,
+  executive summary, variance explanations and recommended actions.
+
+deliverables:
+
+  - Executive Summary
+
+  - Variance Analysis
+
+  - Financial Commentary
+
+  - Risk Assessment
+
+  - Action Plan
+
+ai_role: |
+  Act as a Senior Financial Controller with experience in corporate
+  financial closing, variance analysis, executive reporting and IFRS.
+
+inputs:
+
+  - ERP export
+
+  - Budget
+
+  - Previous month
+
+  - Actual results
+
+quality_checklist:
+
+  - Executive language
+
+  - Numerical consistency
+
+  - Clear recommendations
+
+  - Explain variances
+
+  - Highlight financial risks

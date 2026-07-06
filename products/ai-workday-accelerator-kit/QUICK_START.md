@@ -1,29 +1,75 @@
-# Quick Start
+# Quick Start Guide
 
-Open the module that best matches your current work.
+## Step 1
 
-Recommended order:
+Choose one Business System that matches your current task.
 
-1. Excel Intelligence
-2. Technical Documentation
-3. IT Troubleshooting
-4. Project Delivery
-5. Executive Productivity
+---
 
-Each workflow contains:
+## Step 2
 
-- Business problem
-- Objective
-- AI Prompt
-- Expected Output
-- Best Practices
-- Common Mistakes
-- Pro Tip
+Read:
 
-Read.
+- Business Problem
+- Business Objective
+- Typical Scenario
 
-Copy the prompt.
+---
 
-Adapt it.
+## Step 3
 
-Execute it.
+Prepare the required business information.
+
+---
+
+## Step 4
+
+Copy the Professional AI Prompt into your preferred AI assistant.
+
+---
+
+## Step 5
+
+Provide your business context.
+
+The more context you provide, the better the output.
+
+---
+
+## Step 6
+
+Review the generated deliverable using the Validation Checklist.
+
+---
+
+## Step 7
+
+Customize the output to match your organization's terminology and governance standards.
+
+---
+
+# Recommended Workflow
+
+Business Context
+
+↓
+
+Professional Prompt
+
+↓
+
+AI Draft
+
+↓
+
+Validation Checklist
+
+↓
+
+Final Deliverable
+
+---
+
+Most users achieve high-quality results after one or two prompt iterations.
+
+Avoid using the prompts without business context, as context significantly improves output quality.

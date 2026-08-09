@@ -1,39 +1,110 @@
 from pathlib import Path
 import shutil
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).resolve().parent
 
 PRODUCT = ROOT / "products" / "ai-workday-accelerator-kit"
-SRC = PRODUCT / "src"
+
+SRC = PRODUCT / "source"
 BUILD = PRODUCT / "build"
 
+BUILD.mkdir(parents=True, exist_ok=True)
 
-def build_product():
+MASTER = BUILD / "AI_Workday_Accelerator_Kit.md"
 
-    BUILD.mkdir(parents=True, exist_ok=True)
+parts = []
 
-    master = BUILD / "AI_Workday_Accelerator_Kit.md"
 
-    parts = []
+def add_file(path: Path):
+    if not path.exists():
+        return
 
-    for file in sorted(SRC.glob("*.md")):
+    text = path.read_text(encoding="utf8").strip()
 
-        parts.append(file.read_text(encoding="utf8"))
+    if text:
+        parts.append(text)
         parts.append("\n\n---\n\n")
 
-    master.write_text(
-        "".join(parts),
-        encoding="utf8"
-    )
 
-    for file in PRODUCT.glob("*.md"):
+# ============================================================
+# PRODUCT INTRODUCTION
+# ============================================================
 
-        shutil.copy(file, BUILD / file.name)
+for filename in [
+    "README.md",
+    "QUICK_START.md",
+    "RESULTS.md",
+    "BONUS_100_Enterprise_AI_Writing_Principles.md",
+]:
 
-    print()
-    print("BUILD COMPLETE")
-    print(master)
+    add_file(PRODUCT / filename)
 
 
-if __name__ == "__main__":
-    build_product()
+# ============================================================
+# BUSINESS SYSTEMS
+# ============================================================
+
+module_order = [
+    "excel",
+    "technical-documentation",
+    "troubleshooting",
+    "project-delivery",
+    "executive-productivity",
+]
+
+
+for module in module_order:
+
+    module_dir = SRC / module
+
+    if not module_dir.exists():
+        continue
+
+    files = sorted(module_dir.glob("*.md"))
+
+    for file in files:
+        add_file(file)
+
+
+# ============================================================
+# MASTER DOCUMENT
+# ============================================================
+
+MASTER.write_text(
+    "".join(parts).rstrip() + "\n",
+    encoding="utf8",
+)
+
+
+# ============================================================
+# COPY COMMERCIAL FILES TO BUILD
+# ============================================================
+
+commercial_files = [
+    PRODUCT / "README.md",
+    PRODUCT / "QUICK_START.md",
+    PRODUCT / "RESULTS.md",
+    PRODUCT / "BONUS_100_Enterprise_AI_Writing_Principles.md",
+    PRODUCT / "marketing" / "sales_page.md",
+    PRODUCT / "marketing" / "payhip.md",
+]
+
+
+for source in commercial_files:
+
+    if source.exists():
+        shutil.copy2(
+            source,
+            BUILD / source.name,
+        )
+
+
+print()
+print("=" * 60)
+print("BUILD COMPLETE")
+print("=" * 60)
+print()
+print(f"Master document: {MASTER}")
+print()
+print(f"Business Systems: {len(parts)} content sections")
+print()

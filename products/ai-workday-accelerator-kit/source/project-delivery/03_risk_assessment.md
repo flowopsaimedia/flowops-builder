@@ -2,6 +2,15 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+Project teams need a consistent way to identify, evaluate, prioritize and communicate risks before they become material issues.
+
+## Business Objective
+
+Create a structured project risk assessment that identifies relevant risks, evaluates their potential impact and likelihood, and defines appropriate mitigation actions.
+
 The Project Risk Assessment System provides a structured methodology for identifying, evaluating, prioritizing and managing project risks throughout the project lifecycle.
 
 Rather than reacting after problems occur, this system promotes proactive risk management that supports informed decision-making, protects project objectives and improves delivery predictability.

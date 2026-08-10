@@ -2,6 +2,15 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+Organizations often complete projects without systematically capturing lessons that could improve future initiatives.
+
+## Business Objective
+
+Create a structured lessons-learned analysis that captures what worked, what did not, why it happened and what should change in future projects.
+
 The Lessons Learned Documentation System provides a structured methodology for capturing, validating and reusing knowledge generated throughout the execution of enterprise projects.
 
 Its purpose is to transform project experience into organizational knowledge that continuously improves future initiatives, delivery quality and operational maturity.

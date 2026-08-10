@@ -2,6 +2,15 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+Technical incidents can result in incomplete root cause documentation when evidence, timelines, contributing factors and corrective actions are not systematically organized.
+
+## Business Objective
+
+Create an evidence-based root cause analysis that explains the incident, establishes the causal chain and defines corrective and preventive actions.
+
 The Root Cause Analysis System provides a structured methodology for investigating incidents, identifying their underlying causes and defining corrective actions that prevent recurrence.
 
 Instead of focusing only on restoring service, this system emphasizes learning, continuous improvement and operational resilience.

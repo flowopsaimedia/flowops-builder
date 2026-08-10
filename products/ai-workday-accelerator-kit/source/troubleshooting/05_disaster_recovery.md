@@ -2,6 +2,15 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+Organizations require documented recovery procedures to reduce operational uncertainty when critical systems become unavailable.
+
+## Business Objective
+
+Create a structured disaster-recovery plan covering recovery objectives, dependencies, procedures, responsibilities, validation and escalation.
+
 The Disaster Recovery Planning System provides a structured framework for preparing, validating and maintaining recovery strategies for enterprise technology services following critical operational disruptions.
 
 Its objective is to minimize business interruption, reduce recovery time and ensure that essential business services can be restored safely after a disaster.

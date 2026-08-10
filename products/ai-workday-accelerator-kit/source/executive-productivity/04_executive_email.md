@@ -2,6 +2,24 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+High-impact business communication often requires careful consideration of audience, tone, clarity and desired action.
+
+Common challenges include:
+
+- Writing concise executive messages.
+- Adapting technical information for business audiences.
+- Communicating sensitive issues clearly.
+- Maintaining professional tone.
+- Making required actions explicit.
+- Avoiding unnecessary detail.
+
+## Business Objective
+
+Create clear, concise and professionally structured executive communications that communicate the intended message, business context and required action effectively.
+
 The Executive Email Assistant System provides a structured methodology for drafting professional executive communications that are clear, concise and aligned with organizational objectives.
 
 Its purpose is to reduce the time executives spend writing high-impact communications while improving consistency, professionalism and decision-oriented messaging.

@@ -2,6 +2,15 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+Project status reporting frequently consumes significant time while still failing to communicate the information executives actually need.
+
+## Business Objective
+
+Produce a concise weekly project status report that communicates progress, health, risks, issues, decisions and upcoming priorities.
+
 The Weekly Project Status Reporting System provides a standardized methodology for preparing executive project status reports that communicate progress, risks, decisions and upcoming priorities with clarity and consistency.
 
 The objective is to reduce the time spent preparing reports while increasing the quality of information available for project governance and executive decision-making.

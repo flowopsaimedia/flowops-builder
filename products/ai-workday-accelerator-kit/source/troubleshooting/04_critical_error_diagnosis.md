@@ -2,6 +2,15 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+Critical technical errors can create significant operational impact when teams lack a consistent process for gathering evidence, isolating causes and defining remediation.
+
+## Business Objective
+
+Create a structured critical-error diagnosis that organizes symptoms, evidence, hypotheses, root causes, remediation and preventive actions.
+
 The Critical Error Diagnosis System provides a structured methodology for diagnosing severe application failures that affect business continuity, service availability or operational stability.
 
 Its purpose is to accelerate diagnosis, minimize business impact and produce evidence-based conclusions that support corrective and preventive actions.

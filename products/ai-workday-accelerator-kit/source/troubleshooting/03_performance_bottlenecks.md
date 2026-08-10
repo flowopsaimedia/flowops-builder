@@ -2,6 +2,15 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+Performance problems often involve multiple components and require structured analysis to distinguish symptoms from the underlying bottleneck.
+
+## Business Objective
+
+Create a structured performance investigation that identifies bottlenecks, supporting evidence, affected components, potential causes and recommended remediation actions.
+
 The Performance Bottleneck Investigation System provides a structured methodology for identifying, analyzing and resolving performance issues affecting enterprise applications, APIs, databases and distributed systems.
 
 Rather than focusing solely on infrastructure utilization, this system evaluates the complete execution path to determine where performance degradation originates and how it affects business operations.

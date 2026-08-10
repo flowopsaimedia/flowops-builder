@@ -1,10 +1,7 @@
 from pathlib import Path
 import shutil
+import zipfile
 
-from build_product import build_product
-from builder.pdf_generator import markdown_to_pdf
-from builder.product_generator import build
-from builder.specification import load
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -14,75 +11,197 @@ BUILD = PRODUCT / "build"
 
 RELEASE = PRODUCT / "release"
 
+VERSION = "v1.0"
 
-def build_release(spec_name: str):
+ZIP_NAME = (
+    f"AI_Workday_Accelerator_Kit_Starter_Edition_{VERSION}.zip"
+)
 
-    # 1. Generar módulos
-    build(spec_name)
+ZIP_PATH = RELEASE / ZIP_NAME
 
-    # 2. Compilar producto
-    build_product()
 
-    # 3. Generar PDF
-    markdown_to_pdf()
+# ============================================================
+# CLEAN RELEASE DIRECTORY
+# ============================================================
 
-    spec = load(spec_name)
+if RELEASE.exists():
+    for item in RELEASE.iterdir():
 
-    version = spec["product"]["version"]
-    edition = spec["product"]["edition"].replace(" ", "_")
+        if item.is_dir():
+            shutil.rmtree(item)
 
-    target = RELEASE / f"AI_Workday_Accelerator_Kit_{edition}_v{version}"
+        else:
+            item.unlink()
 
-    if target.exists():
-        shutil.rmtree(target)
+else:
+    RELEASE.mkdir(parents=True)
 
-    target.mkdir(parents=True)
 
-    (target / "modules").mkdir()
-    (target / "templates").mkdir()
-    (target / "examples").mkdir()
-    (target / "bonus").mkdir()
+# ============================================================
+# CREATE PACKAGE STRUCTURE
+# ============================================================
 
-    # Copiar módulos Markdown
+PACKAGE = RELEASE / "package"
 
-    for file in BUILD.glob("*.md"):
+PACKAGE.mkdir(parents=True, exist_ok=True)
 
-        shutil.copy(
+MODULES = PACKAGE / "modules"
+BONUS = PACKAGE / "bonus"
+
+MODULES.mkdir(parents=True, exist_ok=True)
+BONUS.mkdir(parents=True, exist_ok=True)
+
+
+# ============================================================
+# REQUIRED BUILD FILES
+# ============================================================
+
+required_files = [
+    BUILD / "README.md",
+    BUILD / "QUICK_START.md",
+    BUILD / "RESULTS.md",
+    BUILD / "AI_Workday_Accelerator_Kit.md",
+    BUILD / "AI_Workday_Accelerator_Kit.pdf",
+    BUILD / "BONUS_100_Enterprise_AI_Writing_Principles.md",
+]
+
+
+for file in required_files:
+
+    if not file.exists():
+        raise FileNotFoundError(
+            f"Required release file not found: {file}"
+        )
+
+
+# ============================================================
+# COPY CUSTOMER-FACING FILES
+# ============================================================
+
+shutil.copy2(
+    BUILD / "README.md",
+    PACKAGE / "README.md",
+)
+
+shutil.copy2(
+    BUILD / "QUICK_START.md",
+    PACKAGE / "QUICK_START.md",
+)
+
+shutil.copy2(
+    BUILD / "RESULTS.md",
+    PACKAGE / "RESULTS.md",
+)
+
+shutil.copy2(
+    BUILD / "AI_Workday_Accelerator_Kit.pdf",
+    PACKAGE / "AI_Workday_Accelerator_Kit.pdf",
+)
+
+shutil.copy2(
+    BUILD / "AI_Workday_Accelerator_Kit.md",
+    MODULES / "AI_Workday_Accelerator_Kit.md",
+)
+
+shutil.copy2(
+    BUILD / "BONUS_100_Enterprise_AI_Writing_Principles.md",
+    BONUS / "BONUS_100_Enterprise_AI_Writing_Principles.md",
+)
+
+
+# ============================================================
+# CREATE ZIP
+# ============================================================
+
+with zipfile.ZipFile(
+    ZIP_PATH,
+    "w",
+    compression=zipfile.ZIP_DEFLATED,
+    compresslevel=9,
+) as archive:
+
+    for file in PACKAGE.rglob("*"):
+
+        if not file.is_file():
+            continue
+
+        relative = file.relative_to(PACKAGE)
+
+        archive.write(
             file,
-            target / "modules" / file.name
+            arcname=str(relative).replace("\\", "/"),
         )
 
-    # Copiar PDF
 
-    pdf = BUILD / "AI_Workday_Accelerator_Kit.pdf"
+# ============================================================
+# VALIDATION
+# ============================================================
 
-    if pdf.exists():
+required_archive_files = [
+    "README.md",
+    "QUICK_START.md",
+    "RESULTS.md",
+    "AI_Workday_Accelerator_Kit.pdf",
+    "modules/AI_Workday_Accelerator_Kit.md",
+    "bonus/BONUS_100_Enterprise_AI_Writing_Principles.md",
+]
 
-        shutil.copy(
-            pdf,
-            target / pdf.name
-        )
 
-    # Copiar README / QUICK_START
+with zipfile.ZipFile(ZIP_PATH, "r") as archive:
 
-    for file in PRODUCT.glob("*.md"):
+    names = archive.namelist()
 
-        shutil.copy(
-            file,
-            target / file.name
-        )
+    for required in required_archive_files:
 
-    archive = shutil.make_archive(
-        str(target),
-        "zip",
-        target
-    )
+        if required not in names:
+            raise RuntimeError(
+                f"Release validation failed. Missing: {required}"
+            )
 
-    print()
-    print("======================================")
-    print(" RELEASE SUCCESSFULLY GENERATED")
-    print("======================================")
-    print(target)
-    print()
-    print("ZIP")
-    print(archive)
+    forbidden_terms = [
+        "scratchpad",
+        ".git/",
+        "__pycache__/",
+        ".venv/",
+        ".pyc",
+        "seo_keyword",
+        "sales_page.md",
+        "payhip.md",
+    ]
+
+    for name in names:
+
+        normalized = name.lower()
+
+        for forbidden in forbidden_terms:
+
+            if forbidden.lower() in normalized:
+                raise RuntimeError(
+                    f"Forbidden release content detected: {name}"
+                )
+
+
+print()
+print("=" * 60)
+print("RELEASE COMPLETE")
+print("=" * 60)
+print()
+print(f"Package: {ZIP_PATH}")
+print(f"Size: {ZIP_PATH.stat().st_size:,} bytes")
+print()
+print("Included:")
+print("  - README.md")
+print("  - QUICK_START.md")
+print("  - RESULTS.md")
+print("  - AI_Workday_Accelerator_Kit.pdf")
+print("  - AI_Workday_Accelerator_Kit.md")
+print("  - 100 Enterprise AI Writing Principles")
+print()
+print("Excluded:")
+print("  - sales_page.md")
+print("  - payhip.md")
+print("  - scratchpad")
+print("  - source files")
+print("  - development files")
+print()
+print("RELEASE VALIDATION PASSED")

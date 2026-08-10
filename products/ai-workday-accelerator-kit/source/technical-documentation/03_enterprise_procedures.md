@@ -2,6 +2,15 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+Enterprise procedures are often documented inconsistently, making operational execution and knowledge transfer more difficult.
+
+## Business Objective
+
+Create a clear, repeatable enterprise procedure that documents prerequisites, steps, controls, expected results, exceptions and escalation paths.
+
 The Enterprise Procedure Documentation System provides a standardized framework for documenting operational procedures in a consistent, auditable and repeatable manner.
 
 The objective is to eliminate ambiguity, reduce operational risk and ensure that business processes can be executed consistently regardless of who performs them.

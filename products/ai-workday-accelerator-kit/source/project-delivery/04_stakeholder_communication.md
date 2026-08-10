@@ -2,6 +2,15 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+Project communication can become inconsistent when different stakeholders receive different levels of information, timing and messaging.
+
+## Business Objective
+
+Create a structured stakeholder communication approach that defines audiences, messages, channels, frequency, ownership and required actions.
+
 The Stakeholder Communication System provides a structured methodology for planning, preparing and delivering consistent project communications to executives, business leaders, project teams and operational stakeholders.
 
 Its objective is to ensure that every stakeholder receives the right information, at the right level of detail, through the appropriate communication channel and at the appropriate time.

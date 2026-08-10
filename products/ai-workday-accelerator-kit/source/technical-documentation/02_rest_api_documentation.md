@@ -2,6 +2,15 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+API teams frequently spend significant time documenting endpoints, parameters, authentication requirements, responses and operational considerations.
+
+## Business Objective
+
+Create structured REST API documentation that enables technical consumers to understand, integrate with and operate the API correctly.
+
 The REST API Documentation System provides a standardized methodology for documenting enterprise REST services. It produces implementation-ready documentation that supports development, testing, integration, operations and long-term maintenance.
 
 The objective is to ensure every API is understandable without relying on source code or institutional knowledge.

@@ -2,6 +2,24 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+Executives and managers frequently need to make decisions using incomplete, fragmented or time-sensitive information.
+
+Common challenges include:
+
+- Large amounts of information with limited decision time.
+- Difficulty comparing alternatives consistently.
+- Recommendations buried inside lengthy documents.
+- Risks and assumptions that are not clearly identified.
+- Inconsistent decision documentation.
+- Lack of a repeatable structure for executive decisions.
+
+## Business Objective
+
+Create a concise, evidence-based decision memo that clearly explains the situation, evaluates available alternatives, identifies risks and presents a recommended course of action for management consideration.
+
 The Executive Decision Memo System provides a structured methodology for preparing executive decision documents that enable leadership teams to evaluate strategic options quickly and make informed decisions based on business evidence.
 
 The objective is to replace lengthy reports with concise, decision-oriented documentation that clearly explains the problem, available options, associated risks and recommended course of action.

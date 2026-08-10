@@ -2,6 +2,15 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+Large volumes of application and infrastructure logs can make it difficult to identify the events that actually explain a production problem.
+
+## Business Objective
+
+Analyze supplied log information systematically to identify relevant events, correlations, anomalies, potential causes and recommended investigation paths.
+
 The Enterprise Log Analysis System provides a structured methodology for analyzing application, infrastructure and integration logs to identify operational issues, performance degradation, security anomalies and application failures.
 
 The objective is to transform raw log data into actionable operational intelligence.

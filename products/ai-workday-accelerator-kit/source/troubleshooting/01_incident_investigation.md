@@ -2,6 +2,15 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+Production incidents require rapid organization of evidence, timelines, impact information and technical findings while minimizing unsupported assumptions.
+
+## Business Objective
+
+Create a structured production incident investigation that establishes the timeline, impact, evidence, hypotheses, findings, root cause and corrective actions.
+
 The Production Incident Investigation System provides a structured methodology for investigating critical production incidents while minimizing service disruption and preserving evidence for post-incident analysis.
 
 The objective is to enable technical teams to identify the true cause of an incident, restore service safely and generate actionable improvements that reduce the likelihood of recurrence.

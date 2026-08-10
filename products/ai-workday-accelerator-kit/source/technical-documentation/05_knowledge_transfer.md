@@ -2,6 +2,15 @@
 
 ## Executive Summary
 
+
+## Business Problem
+
+Knowledge transfer becomes inefficient when critical technical, operational and business information is distributed across multiple people and documents.
+
+## Business Objective
+
+Create a structured knowledge-transfer package that captures the information required for another professional or team to understand and operate the solution.
+
 The Knowledge Transfer System provides a structured framework for capturing, organizing and transferring technical and operational knowledge between teams, projects and support organizations.
 
 Its objective is to reduce dependency on individuals, accelerate onboarding, preserve organizational knowledge and ensure business continuity.
